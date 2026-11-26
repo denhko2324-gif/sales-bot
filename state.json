@@ -6,7 +6,7 @@
  ],
  "init_sold": true,
  "last_report_day": "2026-11-26",
- "offset": 238070933,
+ "offset": 238070934,
  "sold": {
   "20687:Хайтопы Giuseppe Zanotti": {
    "detected": null,
@@ -4300,6 +4300,15 @@
    "price": 5500,
    "reported": true,
    "title": "Сумка Ne-Net"
+  },
+  "rusclothing:21604:Футболка с трахающимися жирафами Dolce Gabbana": {
+   "channel": "rusclothing",
+   "detected": "2026-11-26T15:38:46.355572+00:00",
+   "post_id": 21604,
+   "posted": "2026-11-25T12:20:20+00:00",
+   "price": 15000,
+   "reported": false,
+   "title": "Футболка с трахающимися жирафами Dolce Gabbana"
   }
  }
 }
