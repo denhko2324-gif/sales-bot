@@ -2,13 +2,14 @@
 """Версия бота для GitHub Actions: запускается по расписанию, делает всё за один проход и завершается.
 
 За один запуск:
-  1. читает новые команды боту (/today, /month, /check, /start, /chatid) и отвечает на них;
+  1. читает новые команды боту (/today, /month, /check, /channels, /add, /remove, /start, /chatid) и отвечает на них;
   2. смотрит выдачу поиска по ❌ в канале и запоминает новые проданные позиции;
   3. после REPORT_HOUR:00 по Китаю (один раз в сутки) присылает итог дня и список новых проданных;
   4. сохраняет состояние в state.json (его коммитит workflow).
 """
 import json
 import os
+import re
 import time
 import urllib.parse
 from datetime import datetime, timedelta, timezone
@@ -16,7 +17,9 @@ from datetime import datetime, timedelta, timezone
 import bot  # парсер и тексты сообщений из bot.py (нужен DB_PATH=:memory:, см. workflow)
 
 STATE_FILE = os.environ.get("STATE_FILE", "state.json")
-CHANNELS = [c.strip().lstrip("@") for c in os.environ.get("CHANNELS", "rusclothing,amahasla").split(",") if c.strip()]
+DEFAULT_CHANNELS = [c.strip().lstrip("@").lower() for c in os.environ.get("CHANNELS", "rusclothing,amahasla").split(",") if c.strip()]
+CHANNELS = list(DEFAULT_CHANNELS)  # актуальный список; при запуске берётся из state.json (команды /add, /remove)
+NAME_RE = re.compile(r"^[a-z0-9_]{4,32}$")
 
 
 class _Post:
@@ -197,11 +200,38 @@ def handle_commands(st):
         cmd = text.split()[0].split("@")[0]
         if cmd in ("/start", "/chatid"):
             bot.send(chat, f"Ваш chat id: {chat}\nДобавьте его в секрет ALLOWED_CHAT_IDS на GitHub, "
-                           f"чтобы получать статистику.")
+                           f"чтобы получать статистику.\nКоманды: /today /month /check /channels /add @канал /remove @канал")
             continue
         if bot.ALLOWED and chat not in bot.ALLOWED:
             continue
-        if cmd == "/today":
+        arg = text.split()[1].lstrip("@") if len(text.split()) > 1 else ""
+        if cmd == "/channels":
+            bot.send(chat, "Отслеживаю каналы: " + ", ".join("@" + c for c in CHANNELS))
+        elif cmd == "/add":
+            if not NAME_RE.match(arg):
+                bot.send(chat, "Напишите так: /add @имя_канала")
+            elif arg in CHANNELS:
+                bot.send(chat, f"@{arg} уже в списке.")
+            else:
+                try:
+                    ok = "tgme_widget_message" in bot.fetch(f"https://t.me/s/{arg}")
+                except Exception:
+                    ok = False
+                if not ok:
+                    bot.send(chat, f"Не удалось прочитать @{arg}: канал должен быть публичным и с открытой веб-лентой.")
+                else:
+                    CHANNELS.append(arg)
+                    st["channels"] = list(CHANNELS)
+                    bot.send(chat, f"Добавил @{arg}. Уже проданное запомню без отчёта, дальше буду присылать новые "
+                                   f"(проданным считаю пост с ❌ или хештегом #продано).")
+        elif cmd == "/remove":
+            if arg in CHANNELS and len(CHANNELS) > 1:
+                CHANNELS.remove(arg)
+                st["channels"] = list(CHANNELS)
+                bot.send(chat, f"Убрал @{arg}.")
+            else:
+                bot.send(chat, "Такого канала нет в списке (или он последний, его убрать нельзя). Список: /channels")
+        elif cmd == "/today":
             bot.send(chat, build_today(st))
         elif cmd == "/month":
             bot.send(chat, build_month_all())
@@ -214,6 +244,7 @@ def main():
     if not bot.TOKEN:
         raise SystemExit("Не задан BOT_TOKEN")
     st = load_state()
+    CHANNELS[:] = st.get("channels") or DEFAULT_CHANNELS
     try:
         try:
             handle_commands(st)
