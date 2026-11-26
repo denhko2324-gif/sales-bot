@@ -1,5 +1,9 @@
 {
  "init": false,
+ "init_channels": [
+  "rusclothing",
+  "amahasla"
+ ],
  "init_sold": true,
  "last_report_day": "2026-11-26",
  "offset": 0,
@@ -285,6 +289,4011 @@
    "title": "Alexander McQueen Pink Platform"
   },
   "21429:Сумка Ne-Net": {
+   "detected": null,
+   "post_id": 21429,
+   "posted": "2026-11-16T20:32:21+00:00",
+   "price": 5500,
+   "reported": true,
+   "title": "Сумка Ne-Net"
+  },
+  "amahasla:6307:Лонгслив Stone Island Marina": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6307,
+   "posted": "2026-07-31T18:13:39+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Лонгслив Stone Island Marina"
+  },
+  "amahasla:6310:Худи Stone Island “Ink Three”": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6310,
+   "posted": "2026-08-01T09:33:33+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Худи Stone Island “Ink Three”"
+  },
+  "amahasla:6312:Кроссовки Dior High": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6312,
+   "posted": "2026-08-01T12:10:06+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Кроссовки Dior High"
+  },
+  "amahasla:6313:Nike Air Force 1 Low WMNS": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6313,
+   "posted": "2026-08-01T14:10:07+00:00",
+   "price": 24990,
+   "reported": true,
+   "title": "Nike Air Force 1 Low WMNS"
+  },
+  "amahasla:6314:Кроссовки Givenchy Tyson Model": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6314,
+   "posted": "2026-08-01T16:15:04+00:00",
+   "price": 7990,
+   "reported": true,
+   "title": "Кроссовки Givenchy Tyson Model"
+  },
+  "amahasla:6315:Кроссовки Maison Margiela Replica": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6315,
+   "posted": "2026-08-02T11:55:26+00:00",
+   "price": 17990,
+   "reported": true,
+   "title": "Кроссовки Maison Margiela Replica"
+  },
+  "amahasla:6316:Кроссовки Adidas Y-3 Gazelle “Uniti Ink”": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6316,
+   "posted": "2026-08-02T12:34:49+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Кроссовки Adidas Y-3 Gazelle “Uniti Ink”"
+  },
+  "amahasla:6318:Кроссовки Cinzia Araia High Wrap Around": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6318,
+   "posted": "2026-08-02T15:15:27+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Кроссовки Cinzia Araia High Wrap Around"
+  },
+  "amahasla:6319:Сумка Vivienne Westwood": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6319,
+   "posted": "2026-08-03T05:55:04+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Сумка Vivienne Westwood"
+  },
+  "amahasla:6321:Ветровка Dolce & Gabbana (D&G)": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6321,
+   "posted": "2026-08-03T10:33:29+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Ветровка Dolce & Gabbana (D&G)"
+  },
+  "amahasla:6322:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6322,
+   "posted": "2026-08-03T12:33:35+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6323:Кроссовки Cinzia Araia High Wrap Around": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6323,
+   "posted": "2026-08-03T14:17:28+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Кроссовки Cinzia Araia High Wrap Around"
+  },
+  "amahasla:6324:Кроссовки Maison Margiela Replica": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6324,
+   "posted": "2026-08-03T15:02:24+00:00",
+   "price": 18490,
+   "reported": true,
+   "title": "Кроссовки Maison Margiela Replica"
+  },
+  "amahasla:6328:Кроссовки Gucci Flashtrek 'Reflective Grey'": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6328,
+   "posted": "2026-08-04T13:01:01+00:00",
+   "price": 19990,
+   "reported": true,
+   "title": "Кроссовки Gucci Flashtrek 'Reflective Grey'"
+  },
+  "amahasla:6329:Cinzia Araia Zipped High-Top Socks": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6329,
+   "posted": "2026-08-04T14:40:08+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Cinzia Araia Zipped High-Top Socks"
+  },
+  "amahasla:6330:Кроссовки END. x Mastermind Japan x Vans Sk8-Hi White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6330,
+   "posted": "2026-08-04T15:40:03+00:00",
+   "price": 15990,
+   "reported": true,
+   "title": "Кроссовки END. x Mastermind Japan x Vans Sk8-Hi White"
+  },
+  "amahasla:6332:Кеды Palm Angels Vulcanized Sneakers": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6332,
+   "posted": "2026-08-05T05:40:03+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Кеды Palm Angels Vulcanized Sneakers"
+  },
+  "amahasla:6333:Кеды Palm Angels Vulcanized Sneakers": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6333,
+   "posted": "2026-08-05T08:15:07+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Кеды Palm Angels Vulcanized Sneakers"
+  },
+  "amahasla:6334:Кроссовки Adidas Y-3 Yohji Pro Low": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6334,
+   "posted": "2026-08-05T11:24:01+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Кроссовки Adidas Y-3 Yohji Pro Low"
+  },
+  "amahasla:6337:Кеды Converse Chuck 70 Hi x Undercover \"The New Warriors\" Camo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6337,
+   "posted": "2026-08-05T16:45:03+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Кеды Converse Chuck 70 Hi x Undercover \"The New Warriors\" Camo"
+  },
+  "amahasla:6338:Кроссовки Nike Air Force 1 Mid Off-White “Sheed”": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6338,
+   "posted": "2026-08-06T06:40:09+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White “Sheed”"
+  },
+  "amahasla:6339:Кроссовки Philipp Plein Leather High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6339,
+   "posted": "2026-08-06T08:34:01+00:00",
+   "price": 19990,
+   "reported": true,
+   "title": "Кроссовки Philipp Plein Leather High-Top"
+  },
+  "amahasla:6340:Кеды Vivienne Westwood Plimsoll High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6340,
+   "posted": "2026-08-06T10:06:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Кеды Vivienne Westwood Plimsoll High-Top"
+  },
+  "amahasla:6342:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6342,
+   "posted": "2026-08-06T15:45:04+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6343:Кеды Vivienne Westwood Plimsoll High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6343,
+   "posted": "2026-08-06T16:19:01+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Кеды Vivienne Westwood Plimsoll High-Top"
+  },
+  "amahasla:6344:Кеды Vivienne Westwood Plimsoll High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6344,
+   "posted": "2026-08-07T08:31:01+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Кеды Vivienne Westwood Plimsoll High-Top"
+  },
+  "amahasla:6345:Кеды Vivienne Westwood Plimsoll Low": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6345,
+   "posted": "2026-08-07T09:32:11+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Кеды Vivienne Westwood Plimsoll Low"
+  },
+  "amahasla:6347:Кроссовки Nike Air Force 1 Independence Day": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6347,
+   "posted": "2026-08-07T12:06:02+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Independence Day"
+  },
+  "amahasla:6349:Кроссовки Nike Air Force 1 Independence Day": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6349,
+   "posted": "2026-08-07T14:50:04+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Independence Day"
+  },
+  "amahasla:6351:Кроссовки Nike Air Force 1 Independence Day": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6351,
+   "posted": "2026-08-08T05:55:01+00:00",
+   "price": 15990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Independence Day"
+  },
+  "amahasla:6352:Кеды Vans Sk8-Hi Vivienne Westwood Anglomania": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6352,
+   "posted": "2026-08-08T09:55:06+00:00",
+   "price": 8490,
+   "reported": true,
+   "title": "Кеды Vans Sk8-Hi Vivienne Westwood Anglomania"
+  },
+  "amahasla:6354:Кроссовки Nike Air Force 1 Independence Day": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6354,
+   "posted": "2026-08-08T13:32:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Independence Day"
+  },
+  "amahasla:6365:Кроссовки Phillip Plein Leather High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6365,
+   "posted": "2026-08-09T16:13:04+00:00",
+   "price": 18990,
+   "reported": true,
+   "title": "Кроссовки Phillip Plein Leather High-Top"
+  },
+  "amahasla:6367:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6367,
+   "posted": "2026-08-10T08:35:06+00:00",
+   "price": 11490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6372:Кроссовки Raf Simons Runner Cylon-21 Black Yellow": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6372,
+   "posted": "2026-08-11T09:04:34+00:00",
+   "price": 15990,
+   "reported": true,
+   "title": "Кроссовки Raf Simons Runner Cylon-21 Black Yellow"
+  },
+  "amahasla:6375:Худи CP Company": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6375,
+   "posted": "2026-08-11T16:05:04+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Худи CP Company"
+  },
+  "amahasla:6376:Худи Dolce & Gabbana Al Pacino Godfather": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6376,
+   "posted": "2026-08-11T16:10:45+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Худи Dolce & Gabbana Al Pacino Godfather"
+  },
+  "amahasla:6378:Кроссовки Maison Margiela x Reebok Classic Leather Tabi 'Black'": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6378,
+   "posted": "2026-08-12T08:16:58+00:00",
+   "price": 16990,
+   "reported": true,
+   "title": "Кроссовки Maison Margiela x Reebok Classic Leather Tabi 'Black'"
+  },
+  "amahasla:6379:Кроссовки Valentino Garavani Open Skate": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6379,
+   "posted": "2026-08-12T10:47:01+00:00",
+   "price": 18990,
+   "reported": true,
+   "title": "Кроссовки Valentino Garavani Open Skate"
+  },
+  "amahasla:6380:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6380,
+   "posted": "2026-08-12T12:32:01+00:00",
+   "price": 10490,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6382:Кроссовки Valentino Garavani Rockstud High": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6382,
+   "posted": "2026-08-12T15:40:05+00:00",
+   "price": 6990,
+   "reported": true,
+   "title": "Кроссовки Valentino Garavani Rockstud High"
+  },
+  "amahasla:6383:Кроссовки Philipp Plein Leopard High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6383,
+   "posted": "2026-08-12T16:40:06+00:00",
+   "price": 18990,
+   "reported": true,
+   "title": "Кроссовки Philipp Plein Leopard High-Top"
+  },
+  "amahasla:6385:Кроссовки Giuseppe Zanotti Coby high-top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6385,
+   "posted": "2026-08-13T06:32:26+00:00",
+   "price": 11490,
+   "reported": true,
+   "title": "Кроссовки Giuseppe Zanotti Coby high-top"
+  },
+  "amahasla:6387:Кроссовки Nike Air Force 1 Independence Day": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6387,
+   "posted": "2026-08-13T11:12:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Independence Day"
+  },
+  "amahasla:6388:Кроссовки Nike Air Force 1 Independence Day": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6388,
+   "posted": "2026-08-13T12:56:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Independence Day"
+  },
+  "amahasla:6389:Кеды Palm Angels Vulcanized Sneakers": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6389,
+   "posted": "2026-08-13T14:33:48+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Кеды Palm Angels Vulcanized Sneakers"
+  },
+  "amahasla:6390:Кроссовки Alexander McQueen Triple Buckle": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6390,
+   "posted": "2026-08-13T15:46:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кроссовки Alexander McQueen Triple Buckle"
+  },
+  "amahasla:6391:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6391,
+   "posted": "2026-08-13T16:33:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6395:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6395,
+   "posted": "2026-08-14T11:53:01+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6396:Кроссовки Adidas Jeremy Scott Wings 3.0 Solid Gold": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6396,
+   "posted": "2026-08-14T13:25:11+00:00",
+   "price": 19990,
+   "reported": true,
+   "title": "Кроссовки Adidas Jeremy Scott Wings 3.0 Solid Gold"
+  },
+  "amahasla:6397:Кроссовки Valentino Garavani Rockstud Untitled Noir": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6397,
+   "posted": "2026-08-14T14:45:08+00:00",
+   "price": 15990,
+   "reported": true,
+   "title": "Кроссовки Valentino Garavani Rockstud Untitled Noir"
+  },
+  "amahasla:6399:Кроссовки Nike NOCTA x Hot Step Air Terra “Light Bone”": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6399,
+   "posted": "2026-08-14T16:53:01+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Кроссовки Nike NOCTA x Hot Step Air Terra “Light Bone”"
+  },
+  "amahasla:6400:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6400,
+   "posted": "2026-08-15T06:25:07+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6401:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6401,
+   "posted": "2026-08-15T08:31:01+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6402:Кроссовки Nike x READYMADE Blazer Mid": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6402,
+   "posted": "2026-08-15T10:25:05+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Кроссовки Nike x READYMADE Blazer Mid"
+  },
+  "amahasla:6403:Кроссовки Adidas BAPE x Superstar 80s “ABC Camo”": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6403,
+   "posted": "2026-08-15T12:43:01+00:00",
+   "price": 11490,
+   "reported": true,
+   "title": "Кроссовки Adidas BAPE x Superstar 80s “ABC Camo”"
+  },
+  "amahasla:6405:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6405,
+   "posted": "2026-08-15T15:53:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6407:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6407,
+   "posted": "2026-08-16T06:50:07+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6408:Кроссовки Adidas Raf Simons Ozweego 3 Bunny White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6408,
+   "posted": "2026-08-16T14:03:00+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кроссовки Adidas Raf Simons Ozweego 3 Bunny White"
+  },
+  "amahasla:6413:Свитер Гоша Рубчинсий Р Logo 2017": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6413,
+   "posted": "2026-08-18T11:09:11+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Свитер Гоша Рубчинсий Р Logo 2017"
+  },
+  "amahasla:6416:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6416,
+   "posted": "2026-08-18T18:00:41+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6418:Кроссовки Nike x Undercover Air Force 1 Low SP": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6418,
+   "posted": "2026-08-19T08:05:06+00:00",
+   "price": 6490,
+   "reported": true,
+   "title": "Кроссовки Nike x Undercover Air Force 1 Low SP"
+  },
+  "amahasla:6419:Шорты Polo Ralph Lauren": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6419,
+   "posted": "2026-08-19T09:47:01+00:00",
+   "price": 3990,
+   "reported": true,
+   "title": "Шорты Polo Ralph Lauren"
+  },
+  "amahasla:6422:Куртка Undercover Freedom Noise": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6422,
+   "posted": "2026-08-19T11:05:04+00:00",
+   "price": 7990,
+   "reported": true,
+   "title": "Куртка Undercover Freedom Noise"
+  },
+  "amahasla:6424:Свитшот Adidas Гоша Рубчинский": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6424,
+   "posted": "2026-08-19T12:33:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Свитшот Adidas Гоша Рубчинский"
+  },
+  "amahasla:6426:Футболка Гоша Рубчинский": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6426,
+   "posted": "2026-08-19T14:05:04+00:00",
+   "price": 3990,
+   "reported": true,
+   "title": "Футболка Гоша Рубчинский"
+  },
+  "amahasla:6427:Шапка Dolce & Gabbana": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6427,
+   "posted": "2026-08-19T16:05:06+00:00",
+   "price": 4490,
+   "reported": true,
+   "title": "Шапка Dolce & Gabbana"
+  },
+  "amahasla:6428:Зип-Худи Diesel Archive": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6428,
+   "posted": "2026-08-19T17:22:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Зип-Худи Diesel Archive"
+  },
+  "amahasla:6430:Кроссовки Nike x Undercover Air Force 1 Low SP": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6430,
+   "posted": "2026-08-20T09:20:09+00:00",
+   "price": 5990,
+   "reported": true,
+   "title": "Кроссовки Nike x Undercover Air Force 1 Low SP"
+  },
+  "amahasla:6431:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6431,
+   "posted": "2026-08-20T11:20:09+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6432:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6432,
+   "posted": "2026-08-20T14:25:05+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6433:Футболка 1017 Alyx 9SM": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6433,
+   "posted": "2026-08-20T16:49:01+00:00",
+   "price": 3990,
+   "reported": true,
+   "title": "Футболка 1017 Alyx 9SM"
+  },
+  "amahasla:6435:Футболка Гоша Рубчинский 2017": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6435,
+   "posted": "2026-08-21T09:02:26+00:00",
+   "price": 4990,
+   "reported": true,
+   "title": "Футболка Гоша Рубчинский 2017"
+  },
+  "amahasla:6436:Куртка Diesel ТОЛЬКО ДЛЯ ВЗРОСЛЫХ": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6436,
+   "posted": "2026-08-21T11:04:32+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Куртка Diesel ТОЛЬКО ДЛЯ ВЗРОСЛЫХ"
+  },
+  "amahasla:6437:Худи Dolce & Gabbana Want Be King": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6437,
+   "posted": "2026-08-21T13:04:15+00:00",
+   "price": 8490,
+   "reported": true,
+   "title": "Худи Dolce & Gabbana Want Be King"
+  },
+  "amahasla:6438:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6438,
+   "posted": "2026-08-21T15:33:07+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6440:Кеды Vivienne Westwood Low-Top Canvas Plimsoll": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6440,
+   "posted": "2026-08-22T09:37:33+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Кеды Vivienne Westwood Low-Top Canvas Plimsoll"
+  },
+  "amahasla:6443:Кроссовки Philipp Plein High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6443,
+   "posted": "2026-08-22T15:14:01+00:00",
+   "price": 16490,
+   "reported": true,
+   "title": "Кроссовки Philipp Plein High-Top"
+  },
+  "amahasla:6444:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6444,
+   "posted": "2026-08-22T17:57:01+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6447:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6447,
+   "posted": "2026-08-23T11:44:42+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6449:Кроссовки Nike x Undercover Air Force 1 Low SP": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6449,
+   "posted": "2026-08-23T14:17:16+00:00",
+   "price": 6490,
+   "reported": true,
+   "title": "Кроссовки Nike x Undercover Air Force 1 Low SP"
+  },
+  "amahasla:6450:Сумка Jeremy Scott Bewerly Hills": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6450,
+   "posted": "2026-08-24T10:15:59+00:00",
+   "price": 7990,
+   "reported": true,
+   "title": "Сумка Jeremy Scott Bewerly Hills"
+  },
+  "amahasla:6451:Сумка Jean Paul Gaultier": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6451,
+   "posted": "2026-08-24T13:15:08+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Сумка Jean Paul Gaultier"
+  },
+  "amahasla:6452:Кроссовки Nike x Undercover Air Force 1 Low SP": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6452,
+   "posted": "2026-08-24T17:11:20+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Кроссовки Nike x Undercover Air Force 1 Low SP"
+  },
+  "amahasla:6455:Кеды Converse x Isabel Marant Chuck 70 High 'Raven'": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6455,
+   "posted": "2026-08-25T12:14:01+00:00",
+   "price": 16490,
+   "reported": true,
+   "title": "Кеды Converse x Isabel Marant Chuck 70 High 'Raven'"
+  },
+  "amahasla:6456:Кроссовки Nike x Undercover Air Force 1 Low SP": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6456,
+   "posted": "2026-08-25T14:38:01+00:00",
+   "price": 6990,
+   "reported": true,
+   "title": "Кроссовки Nike x Undercover Air Force 1 Low SP"
+  },
+  "amahasla:6459:Кроссовки END. x Mastermind Japan x Vans Sk8-Hi White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6459,
+   "posted": "2026-08-26T11:50:08+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Кроссовки END. x Mastermind Japan x Vans Sk8-Hi White"
+  },
+  "amahasla:6460:Кеды Converse x TAKAHIROMIYASHITA The Soloist Jack Purcell Zip": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6460,
+   "posted": "2026-08-26T15:21:01+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Кеды Converse x TAKAHIROMIYASHITA The Soloist Jack Purcell Zip"
+  },
+  "amahasla:6461:Худи Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6461,
+   "posted": "2026-08-26T16:53:01+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Худи Stone Island"
+  },
+  "amahasla:6464:Кроссовки Off-White Off-Court Low-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6464,
+   "posted": "2026-08-27T10:12:01+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Кроссовки Off-White Off-Court Low-Top"
+  },
+  "amahasla:6466:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6466,
+   "posted": "2026-08-27T13:52:01+00:00",
+   "price": 14490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6468:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6468,
+   "posted": "2026-08-27T16:30:12+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6469:Кроссовки Nike Air Force 1 Independence Day": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6469,
+   "posted": "2026-08-27T17:18:01+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Independence Day"
+  },
+  "amahasla:6473:Кеды McQ Alexander McQueen Swallow Swarm White Canvas Low Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6473,
+   "posted": "2026-08-28T12:57:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кеды McQ Alexander McQueen Swallow Swarm White Canvas Low Top"
+  },
+  "amahasla:6475:Кеды Converse x The Soloist All Star Disrupt CX High": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6475,
+   "posted": "2026-08-28T15:53:27+00:00",
+   "price": 6490,
+   "reported": true,
+   "title": "Кеды Converse x The Soloist All Star Disrupt CX High"
+  },
+  "amahasla:6477:Кроссовки Nike x Undercover Air Force 1 Low SP": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6477,
+   "posted": "2026-08-29T10:55:03+00:00",
+   "price": 5990,
+   "reported": true,
+   "title": "Кроссовки Nike x Undercover Air Force 1 Low SP"
+  },
+  "amahasla:6479:Кроссовки Adidas Raf Simons Ozweego II Bright Yellow": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6479,
+   "posted": "2026-08-29T14:34:01+00:00",
+   "price": 18990,
+   "reported": true,
+   "title": "Кроссовки Adidas Raf Simons Ozweego II Bright Yellow"
+  },
+  "amahasla:6480:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6480,
+   "posted": "2026-08-29T16:59:01+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6486:Converse x Rick Owens DRKSHDW TURBOWPN Mid": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6486,
+   "posted": "2026-08-31T10:43:30+00:00",
+   "price": 6990,
+   "reported": true,
+   "title": "Converse x Rick Owens DRKSHDW TURBOWPN Mid"
+  },
+  "amahasla:6488:Кроссовки Maison Margiela Replica": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6488,
+   "posted": "2026-09-01T07:00:30+00:00",
+   "price": 16990,
+   "reported": true,
+   "title": "Кроссовки Maison Margiela Replica"
+  },
+  "amahasla:6493:Кеды Palm Angels Vulcanized Sneakers": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6493,
+   "posted": "2026-09-03T08:20:07+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Кеды Palm Angels Vulcanized Sneakers"
+  },
+  "amahasla:6494:Кроссовки Adidas x Raf Simons Ozweego II Tactile Rose": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6494,
+   "posted": "2026-09-03T09:18:43+00:00",
+   "price": 16490,
+   "reported": true,
+   "title": "Кроссовки Adidas x Raf Simons Ozweego II Tactile Rose"
+  },
+  "amahasla:6495:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6495,
+   "posted": "2026-09-03T10:36:01+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6501:Кроссовки Giuseppe Zannoti High Side Zippers": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6501,
+   "posted": "2026-09-04T10:51:01+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Кроссовки Giuseppe Zannoti High Side Zippers"
+  },
+  "amahasla:6502:Кроссовки END. x Mastermind Japan x Vans Sk8-Hi White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6502,
+   "posted": "2026-09-04T12:15:36+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кроссовки END. x Mastermind Japan x Vans Sk8-Hi White"
+  },
+  "amahasla:6503:Кеды Vivienne Westwood Plimsoll High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6503,
+   "posted": "2026-09-04T15:43:04+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Кеды Vivienne Westwood Plimsoll High-Top"
+  },
+  "amahasla:6504:Кроссовки Raf Simons Runner Cylon-21 Metallic Silver": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6504,
+   "posted": "2026-09-04T16:59:01+00:00",
+   "price": 29990,
+   "reported": true,
+   "title": "Кроссовки Raf Simons Runner Cylon-21 Metallic Silver"
+  },
+  "amahasla:6505:Кроссовки Raf Simons Runner Cylon-21 Metallic Silver": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6505,
+   "posted": "2026-09-05T10:03:46+00:00",
+   "price": 24990,
+   "reported": true,
+   "title": "Кроссовки Raf Simons Runner Cylon-21 Metallic Silver"
+  },
+  "amahasla:6509:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6509,
+   "posted": "2026-09-05T16:28:01+00:00",
+   "price": 14490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6511:Кеды Vivienne Westwood Canvas Low-Top Orb Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6511,
+   "posted": "2026-09-06T08:10:03+00:00",
+   "price": 11490,
+   "reported": true,
+   "title": "Кеды Vivienne Westwood Canvas Low-Top Orb Logo"
+  },
+  "amahasla:6512:Converse x Rick Owens DRKSHDW TURBOWPN Mid": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6512,
+   "posted": "2026-09-06T12:25:19+00:00",
+   "price": 17990,
+   "reported": true,
+   "title": "Converse x Rick Owens DRKSHDW TURBOWPN Mid"
+  },
+  "amahasla:6513:Кеды Vivienne Westwood Canvas Low-Top Orb Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6513,
+   "posted": "2026-09-06T17:05:48+00:00",
+   "price": 11490,
+   "reported": true,
+   "title": "Кеды Vivienne Westwood Canvas Low-Top Orb Logo"
+  },
+  "amahasla:6514:Кеды Vans x Neighborhood Era 95 DX Seagrass": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6514,
+   "posted": "2026-09-07T05:56:58+00:00",
+   "price": 7990,
+   "reported": true,
+   "title": "Кеды Vans x Neighborhood Era 95 DX Seagrass"
+  },
+  "amahasla:6515:Кеды Palm Angels Vulcanized Sneakers": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6515,
+   "posted": "2026-09-07T10:33:01+00:00",
+   "price": 9490,
+   "reported": true,
+   "title": "Кеды Palm Angels Vulcanized Sneakers"
+  },
+  "amahasla:6517:Кроссовки Nike x Undercover Air Force 1 Low SP": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6517,
+   "posted": "2026-09-07T14:20:27+00:00",
+   "price": 5990,
+   "reported": true,
+   "title": "Кроссовки Nike x Undercover Air Force 1 Low SP"
+  },
+  "amahasla:6519:Cinzia Araia Leather High Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6519,
+   "posted": "2026-09-07T16:51:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Cinzia Araia Leather High Top"
+  },
+  "amahasla:6521:Кроссовки Adidas Y-3 Super Zip": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6521,
+   "posted": "2026-09-08T08:49:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кроссовки Adidas Y-3 Super Zip"
+  },
+  "amahasla:6523:Двусторонний Пуховик Adidas Originals Down Regen Camo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6523,
+   "posted": "2026-09-08T11:25:28+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Двусторонний Пуховик Adidas Originals Down Regen Camo"
+  },
+  "amahasla:6526:Пуховик Armani Exchange Hooded Smile": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6526,
+   "posted": "2026-09-08T15:53:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Пуховик Armani Exchange Hooded Smile"
+  },
+  "amahasla:6528:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6528,
+   "posted": "2026-09-09T06:10:23+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6529:Пуховик GU x Undercover": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6529,
+   "posted": "2026-09-09T07:57:01+00:00",
+   "price": 15990,
+   "reported": true,
+   "title": "Пуховик GU x Undercover"
+  },
+  "amahasla:6530:Пуховик Dolce & Gabbana Hooded": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6530,
+   "posted": "2026-09-09T11:13:01+00:00",
+   "price": 19990,
+   "reported": true,
+   "title": "Пуховик Dolce & Gabbana Hooded"
+  },
+  "amahasla:6531:Пуховик Diesel Archive Alaska Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6531,
+   "posted": "2026-09-09T13:41:01+00:00",
+   "price": 7990,
+   "reported": true,
+   "title": "Пуховик Diesel Archive Alaska Glossy"
+  },
+  "amahasla:6533:Пуховик Dolce & Gabbana Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6533,
+   "posted": "2026-09-09T16:29:01+00:00",
+   "price": 19990,
+   "reported": true,
+   "title": "Пуховик Dolce & Gabbana Logo"
+  },
+  "amahasla:6534:Жилетка Dolce & Gabbana Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6534,
+   "posted": "2026-09-10T06:31:01+00:00",
+   "price": 7990,
+   "reported": true,
+   "title": "Жилетка Dolce & Gabbana Logo"
+  },
+  "amahasla:6536:Жилетка Dolce & Gabbana Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6536,
+   "posted": "2026-09-10T13:01:52+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Жилетка Dolce & Gabbana Logo"
+  },
+  "amahasla:6537:Рюкзак Kenzo Paris": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6537,
+   "posted": "2026-09-10T15:15:57+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Рюкзак Kenzo Paris"
+  },
+  "amahasla:6538:Рюкзак Kenzo Camo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6538,
+   "posted": "2026-09-10T16:36:39+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Рюкзак Kenzo Camo"
+  },
+  "amahasla:6539:Пуховик Emporio Armani Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6539,
+   "posted": "2026-09-11T07:43:01+00:00",
+   "price": 21990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani Glossy"
+  },
+  "amahasla:6540:Сумка Jean Paul Gaultier": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6540,
+   "posted": "2026-09-11T08:55:05+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Сумка Jean Paul Gaultier"
+  },
+  "amahasla:6542:Шапка Dolce & Gabbana": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6542,
+   "posted": "2026-09-11T12:22:01+00:00",
+   "price": 5490,
+   "reported": true,
+   "title": "Шапка Dolce & Gabbana"
+  },
+  "amahasla:6543:Кошелёк Diesel": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6543,
+   "posted": "2026-09-11T13:28:01+00:00",
+   "price": 4990,
+   "reported": true,
+   "title": "Кошелёк Diesel"
+  },
+  "amahasla:6545:Сумка Jeremy Scott Beverly Hills": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6545,
+   "posted": "2026-09-11T14:39:01+00:00",
+   "price": 8490,
+   "reported": true,
+   "title": "Сумка Jeremy Scott Beverly Hills"
+  },
+  "amahasla:6546:Сумка Jean Paul Gaultier": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6546,
+   "posted": "2026-09-11T16:27:01+00:00",
+   "price": 4990,
+   "reported": true,
+   "title": "Сумка Jean Paul Gaultier"
+  },
+  "amahasla:6547:Браслет Yves Saint Laurent": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6547,
+   "posted": "2026-09-12T10:30:19+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Браслет Yves Saint Laurent"
+  },
+  "amahasla:6548:Браслет Vivienne Westwood": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6548,
+   "posted": "2026-09-12T12:34:33+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Браслет Vivienne Westwood"
+  },
+  "amahasla:6553:Сумка Jean Paul Gaultier": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6553,
+   "posted": "2026-09-13T13:51:26+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Сумка Jean Paul Gaultier"
+  },
+  "amahasla:6555:Сумка Juicy Couture": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6555,
+   "posted": "2026-09-14T10:16:15+00:00",
+   "price": 8490,
+   "reported": true,
+   "title": "Сумка Juicy Couture"
+  },
+  "amahasla:6556:Сумка Jean Paul Gaultier": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6556,
+   "posted": "2026-09-14T13:59:58+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Сумка Jean Paul Gaultier"
+  },
+  "amahasla:6558:Ветровка Dolce & Gabbana Archive": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6558,
+   "posted": "2026-09-15T07:43:40+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Ветровка Dolce & Gabbana Archive"
+  },
+  "amahasla:6559:Худи Dolce & Gabbana D&G Gold": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6559,
+   "posted": "2026-09-15T08:34:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Худи Dolce & Gabbana D&G Gold"
+  },
+  "amahasla:6560:Худи Marcelo Burlon": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6560,
+   "posted": "2026-09-15T10:34:01+00:00",
+   "price": 7290,
+   "reported": true,
+   "title": "Худи Marcelo Burlon"
+  },
+  "amahasla:6561:Зип-Худи Dolce & Gabbana D&G": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6561,
+   "posted": "2026-09-15T12:01:01+00:00",
+   "price": 7990,
+   "reported": true,
+   "title": "Зип-Худи Dolce & Gabbana D&G"
+  },
+  "amahasla:6563:Зип-Худи Dolce & Gabbana D&G": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6563,
+   "posted": "2026-09-15T16:51:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Зип-Худи Dolce & Gabbana D&G"
+  },
+  "amahasla:6565:Рюкзак Kenzo Paris": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6565,
+   "posted": "2026-09-16T06:16:01+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Рюкзак Kenzo Paris"
+  },
+  "amahasla:6566:Худи Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6566,
+   "posted": "2026-09-16T09:12:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Худи Stone Island"
+  },
+  "amahasla:6568:Сумка Jean Paul Gaultier": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6568,
+   "posted": "2026-09-16T12:35:02+00:00",
+   "price": 3990,
+   "reported": true,
+   "title": "Сумка Jean Paul Gaultier"
+  },
+  "amahasla:6569:Худи Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6569,
+   "posted": "2026-09-16T13:57:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Худи Stone Island"
+  },
+  "amahasla:6573:Сумка Jeremy Scott Bewerly Hills": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6573,
+   "posted": "2026-09-17T06:25:05+00:00",
+   "price": 8490,
+   "reported": true,
+   "title": "Сумка Jeremy Scott Bewerly Hills"
+  },
+  "amahasla:6576:Сумка George Gina & Lucy GGL ROSIE POSIE": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6576,
+   "posted": "2026-09-17T12:47:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Сумка George Gina & Lucy GGL ROSIE POSIE"
+  },
+  "amahasla:6577:Рюкзак Dolce & Gabbana D&G": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6577,
+   "posted": "2026-09-17T14:14:06+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Рюкзак Dolce & Gabbana D&G"
+  },
+  "amahasla:6579:Худи Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6579,
+   "posted": "2026-09-17T17:14:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Худи Stone Island"
+  },
+  "amahasla:6580:Рюкзак Diesel Le-Ony": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6580,
+   "posted": "2026-09-18T06:25:06+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Рюкзак Diesel Le-Ony"
+  },
+  "amahasla:6583:Свитшот Adidas Y-3 Yohji Yamamoto": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6583,
+   "posted": "2026-09-18T13:26:01+00:00",
+   "price": 6990,
+   "reported": true,
+   "title": "Свитшот Adidas Y-3 Yohji Yamamoto"
+  },
+  "amahasla:6584:Свитшот Valentino Dreamers": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6584,
+   "posted": "2026-09-18T15:15:04+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Свитшот Valentino Dreamers"
+  },
+  "amahasla:6585:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6585,
+   "posted": "2026-09-18T16:18:01+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6586:Рюкзак Eastpak x Jean Paul Gaultier": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6586,
+   "posted": "2026-09-18T17:29:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Рюкзак Eastpak x Jean Paul Gaultier"
+  },
+  "amahasla:6589:Худи Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6589,
+   "posted": "2026-09-19T06:40:04+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Худи Stone Island"
+  },
+  "amahasla:6591:Свитшот Diesel Crewneck Zipped": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6591,
+   "posted": "2026-09-19T10:29:01+00:00",
+   "price": 6990,
+   "reported": true,
+   "title": "Свитшот Diesel Crewneck Zipped"
+  },
+  "amahasla:6592:Худи Dolce & Gabbana D&G James Dean": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6592,
+   "posted": "2026-09-19T12:59:01+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Худи Dolce & Gabbana D&G James Dean"
+  },
+  "amahasla:6593:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6593,
+   "posted": "2026-09-19T14:59:01+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6594:Ветровка Marcelo Burlon Snake": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6594,
+   "posted": "2026-09-19T15:56:01+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Ветровка Marcelo Burlon Snake"
+  },
+  "amahasla:6595:Поло Raf Simons x Fred Perry": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6595,
+   "posted": "2026-09-19T16:26:01+00:00",
+   "price": 5990,
+   "reported": true,
+   "title": "Поло Raf Simons x Fred Perry"
+  },
+  "amahasla:6598:Пуховик Marcelo Burlon Trapial Snake": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6598,
+   "posted": "2026-09-20T14:25:04+00:00",
+   "price": 21990,
+   "reported": true,
+   "title": "Пуховик Marcelo Burlon Trapial Snake"
+  },
+  "amahasla:6599:Свитшот Stone Island 82 22": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6599,
+   "posted": "2026-09-20T16:43:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Свитшот Stone Island 82 22"
+  },
+  "amahasla:6600:Пуховик Diesel Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6600,
+   "posted": "2026-09-21T06:41:27+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Пуховик Diesel Alaska"
+  },
+  "amahasla:6603:Часы Dolce & Gabbana D&G Crystal": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6603,
+   "posted": "2026-09-21T14:23:36+00:00",
+   "price": 6990,
+   "reported": true,
+   "title": "Часы Dolce & Gabbana D&G Crystal"
+  },
+  "amahasla:6608:Худи Dior Oblique": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6608,
+   "posted": "2026-09-22T13:03:08+00:00",
+   "price": 39990,
+   "reported": true,
+   "title": "Худи Dior Oblique"
+  },
+  "amahasla:6609:Серьги Dolce & Gabbana D&G": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6609,
+   "posted": "2026-09-22T13:46:01+00:00",
+   "price": 6990,
+   "reported": true,
+   "title": "Серьги Dolce & Gabbana D&G"
+  },
+  "amahasla:6611:Худи CP Company": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6611,
+   "posted": "2026-09-22T16:04:19+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Худи CP Company"
+  },
+  "amahasla:6615:Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6615,
+   "posted": "2026-09-23T09:14:21+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\""
+  },
+  "amahasla:6618:Сумка CP Company": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6618,
+   "posted": "2026-09-23T14:48:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Сумка CP Company"
+  },
+  "amahasla:6621:Кроссовки Nike Comme des garçons cdg Air Force 1 high": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6621,
+   "posted": "2026-09-24T07:53:01+00:00",
+   "price": 22990,
+   "reported": true,
+   "title": "Кроссовки Nike Comme des garçons cdg Air Force 1 high"
+  },
+  "amahasla:6622:Пуховик Diesel Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6622,
+   "posted": "2026-09-24T09:12:43+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Пуховик Diesel Alaska"
+  },
+  "amahasla:6624:Зип-Худи Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6624,
+   "posted": "2026-09-24T12:32:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Зип-Худи Stone Island"
+  },
+  "amahasla:6625:Кеды Converse x TAKAHIROMIYASHITA The Soloist Jack Purcell Zip": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6625,
+   "posted": "2026-09-24T13:34:06+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Кеды Converse x TAKAHIROMIYASHITA The Soloist Jack Purcell Zip"
+  },
+  "amahasla:6626:Кроссовки Versace High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6626,
+   "posted": "2026-09-24T15:22:01+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Кроссовки Versace High-Top"
+  },
+  "amahasla:6627:Кроссовки Adidas Jeremy Scott x Superstar “Money”": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6627,
+   "posted": "2026-09-24T16:32:01+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Кроссовки Adidas Jeremy Scott x Superstar “Money”"
+  },
+  "amahasla:6639:Кеды Vivienne Westwood Canvas Low-Top Orb Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6639,
+   "posted": "2026-09-26T06:24:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кеды Vivienne Westwood Canvas Low-Top Orb Logo"
+  },
+  "amahasla:6644:Кроссовки Off-White x Nike Air Force 1 Mid 'Varsity Maize'": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6644,
+   "posted": "2026-09-27T11:08:33+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Кроссовки Off-White x Nike Air Force 1 Mid 'Varsity Maize'"
+  },
+  "amahasla:6645:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6645,
+   "posted": "2026-09-27T12:10:10+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6646:Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6646,
+   "posted": "2026-09-27T13:17:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\""
+  },
+  "amahasla:6648:Кроссовки Nike Air Force 1 Independence Day": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6648,
+   "posted": "2026-09-27T14:23:01+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Independence Day"
+  },
+  "amahasla:6651:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6651,
+   "posted": "2026-09-28T06:20:05+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6653:Кроссовки Nike Wmns Air Force 1 LXX Serena Williams Summit": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6653,
+   "posted": "2026-09-28T09:23:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кроссовки Nike Wmns Air Force 1 LXX Serena Williams Summit"
+  },
+  "amahasla:6654:Пуховик-Жилетка Dolce & Gabbana D&G Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6654,
+   "posted": "2026-09-28T11:15:04+00:00",
+   "price": 23990,
+   "reported": true,
+   "title": "Пуховик-Жилетка Dolce & Gabbana D&G Logo"
+  },
+  "amahasla:6656:Пуховик Nike Sportswear Synthetic-Fill Windrunner \"Stone White\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6656,
+   "posted": "2026-09-28T13:52:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Пуховик Nike Sportswear Synthetic-Fill Windrunner \"Stone White\""
+  },
+  "amahasla:6658:Пуховик Emporio Armani как у Friendly Thug 52 NGG": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6658,
+   "posted": "2026-09-28T16:55:13+00:00",
+   "price": 20990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani как у Friendly Thug 52 NGG"
+  },
+  "amahasla:6660:Кроссовки END. x Mastermind Japan x Vans Sk8-Hi White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6660,
+   "posted": "2026-09-29T07:02:01+00:00",
+   "price": 16990,
+   "reported": true,
+   "title": "Кроссовки END. x Mastermind Japan x Vans Sk8-Hi White"
+  },
+  "amahasla:6662:Пуховик Nike": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6662,
+   "posted": "2026-09-29T10:16:01+00:00",
+   "price": 7990,
+   "reported": true,
+   "title": "Пуховик Nike"
+  },
+  "amahasla:6663:Пуховик GU x Undercover": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6663,
+   "posted": "2026-09-29T11:06:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Пуховик GU x Undercover"
+  },
+  "amahasla:6666:Пуховик Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6666,
+   "posted": "2026-09-29T12:33:46+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Пуховик Diesel W-Burkisk Alaska"
+  },
+  "amahasla:6667:Пуховик Jordan": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6667,
+   "posted": "2026-09-29T13:36:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Пуховик Jordan"
+  },
+  "amahasla:6668:Пуховик Dolce & Gabbana Alaska Vintage": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6668,
+   "posted": "2026-09-29T14:40:07+00:00",
+   "price": 34990,
+   "reported": true,
+   "title": "Пуховик Dolce & Gabbana Alaska Vintage"
+  },
+  "amahasla:6669:Кроссовки Adidas Raf Simons Ozweego Replicant USA": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6669,
+   "posted": "2026-09-29T16:06:01+00:00",
+   "price": 16990,
+   "reported": true,
+   "title": "Кроссовки Adidas Raf Simons Ozweego Replicant USA"
+  },
+  "amahasla:6670:Кроссовки END. x Mastermind Japan x Vans Sk8-Hi White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6670,
+   "posted": "2026-09-29T17:33:00+00:00",
+   "price": 16990,
+   "reported": true,
+   "title": "Кроссовки END. x Mastermind Japan x Vans Sk8-Hi White"
+  },
+  "amahasla:6676:Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6676,
+   "posted": "2026-09-30T10:44:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\""
+  },
+  "amahasla:6678:Пуховик Dolce & Gabbana Vintage": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6678,
+   "posted": "2026-09-30T13:22:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Пуховик Dolce & Gabbana Vintage"
+  },
+  "amahasla:6679:Пуховик Emporio Armani": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6679,
+   "posted": "2026-09-30T14:43:01+00:00",
+   "price": 19990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani"
+  },
+  "amahasla:6682:Кроссовки Giuseppe Zanotti Black Leather Double Buckle High Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6682,
+   "posted": "2026-10-01T06:15:04+00:00",
+   "price": 16990,
+   "reported": true,
+   "title": "Кроссовки Giuseppe Zanotti Black Leather Double Buckle High Top"
+  },
+  "amahasla:6683:Пуховик Armani Exchange": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6683,
+   "posted": "2026-10-01T07:35:04+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Пуховик Armani Exchange"
+  },
+  "amahasla:6686:Пуховик Dolce & Gabbana Vintage": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6686,
+   "posted": "2026-10-01T11:23:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Пуховик Dolce & Gabbana Vintage"
+  },
+  "amahasla:6687:Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6687,
+   "posted": "2026-10-01T12:33:23+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\""
+  },
+  "amahasla:6688:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6688,
+   "posted": "2026-10-01T13:16:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6694:Кроссовки Valentino Garavani Open Skate": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6694,
+   "posted": "2026-10-02T11:46:01+00:00",
+   "price": 17990,
+   "reported": true,
+   "title": "Кроссовки Valentino Garavani Open Skate"
+  },
+  "amahasla:6695:Кроссовки Nike Air Force 1 Low Shroud Zippered": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6695,
+   "posted": "2026-10-02T12:37:01+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Low Shroud Zippered"
+  },
+  "amahasla:6696:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6696,
+   "posted": "2026-10-02T14:48:01+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6697:Кроссовки Valentino Garavani Open": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6697,
+   "posted": "2026-10-02T15:50:09+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Кроссовки Valentino Garavani Open"
+  },
+  "amahasla:6698:Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6698,
+   "posted": "2026-10-02T16:34:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\""
+  },
+  "amahasla:6700:Кеды Giuseppe Zanotti Side-Zip Suede": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6700,
+   "posted": "2026-10-03T08:12:01+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Кеды Giuseppe Zanotti Side-Zip Suede"
+  },
+  "amahasla:6701:Пуховик Jordan": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6701,
+   "posted": "2026-10-03T09:31:20+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Пуховик Jordan"
+  },
+  "amahasla:6702:Кеды Givenchy City Sport Leather": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6702,
+   "posted": "2026-10-03T10:45:08+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Кеды Givenchy City Sport Leather"
+  },
+  "amahasla:6703:Пуховик Diesel Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6703,
+   "posted": "2026-10-03T11:07:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Пуховик Diesel Alaska"
+  },
+  "amahasla:6706:Кроссовки Dsquared2 Camouflage Calf-Hair": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6706,
+   "posted": "2026-10-03T15:28:13+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Кроссовки Dsquared2 Camouflage Calf-Hair"
+  },
+  "amahasla:6707:Кроссовки Alejandro Ingelmo \"Tron\" High-Top Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6707,
+   "posted": "2026-10-03T16:44:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кроссовки Alejandro Ingelmo \"Tron\" High-Top Glossy"
+  },
+  "amahasla:6708:Бомбер Diesel Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6708,
+   "posted": "2026-10-03T17:31:01+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Бомбер Diesel Alaska"
+  },
+  "amahasla:6709:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6709,
+   "posted": "2026-10-04T06:31:01+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6712:Пуховик Burberry": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6712,
+   "posted": "2026-10-04T10:55:05+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Пуховик Burberry"
+  },
+  "amahasla:6715:Кеды Adidas Y-3 Super High": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6715,
+   "posted": "2026-10-04T15:37:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кеды Adidas Y-3 Super High"
+  },
+  "amahasla:6716:Жилетка Dolce & Gabbana Glossy Vintage": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6716,
+   "posted": "2026-10-04T16:26:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Жилетка Dolce & Gabbana Glossy Vintage"
+  },
+  "amahasla:6718:Кеды BAPE x Adidas Superstar Vintage 'White Black' (JR2701)": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6718,
+   "posted": "2026-10-05T07:44:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кеды BAPE x Adidas Superstar Vintage 'White Black' (JR2701)"
+  },
+  "amahasla:6719:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6719,
+   "posted": "2026-10-05T09:09:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6720:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6720,
+   "posted": "2026-10-05T10:32:01+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6723:Кеды Marcelo Burlon Side Wings High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6723,
+   "posted": "2026-10-05T14:41:01+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Кеды Marcelo Burlon Side Wings High-Top"
+  },
+  "amahasla:6724:Пуховик GU x Undercover": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6724,
+   "posted": "2026-10-05T15:34:01+00:00",
+   "price": 17990,
+   "reported": true,
+   "title": "Пуховик GU x Undercover"
+  },
+  "amahasla:6725:Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6725,
+   "posted": "2026-10-05T16:40:08+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\""
+  },
+  "amahasla:6727:Кеды Palm Angels Palm Tree High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6727,
+   "posted": "2026-10-06T08:35:39+00:00",
+   "price": 8490,
+   "reported": true,
+   "title": "Кеды Palm Angels Palm Tree High-Top"
+  },
+  "amahasla:6729:Кеды Vivienne Westwood Plimsoll High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6729,
+   "posted": "2026-10-06T11:32:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кеды Vivienne Westwood Plimsoll High-Top"
+  },
+  "amahasla:6730:Кеды Adidas Y-3 Gazelle Yohji Yamamoto": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6730,
+   "posted": "2026-10-06T12:48:01+00:00",
+   "price": 7990,
+   "reported": true,
+   "title": "Кеды Adidas Y-3 Gazelle Yohji Yamamoto"
+  },
+  "amahasla:6732:Кроссовки Maison Margiela x Reebok Instapump Fury 'Memory Of'": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6732,
+   "posted": "2026-10-07T06:20:09+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Кроссовки Maison Margiela x Reebok Instapump Fury 'Memory Of'"
+  },
+  "amahasla:6735:Пуховик Emporio Armani": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6735,
+   "posted": "2026-10-07T10:34:01+00:00",
+   "price": 20990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani"
+  },
+  "amahasla:6737:Жилетка Dolce & Gabbana Glossy Vintage": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6737,
+   "posted": "2026-10-07T13:00:34+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Жилетка Dolce & Gabbana Glossy Vintage"
+  },
+  "amahasla:6738:Кроссовки Nike Air Force 1 Independence Day": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6738,
+   "posted": "2026-10-07T14:32:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Independence Day"
+  },
+  "amahasla:6739:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6739,
+   "posted": "2026-10-07T16:10:06+00:00",
+   "price": 14490,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6741:Кеды A Bathing Ape x Undefeated x Adidas Superstar 80s 'Blue Camo'": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6741,
+   "posted": "2026-10-08T07:55:02+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кеды A Bathing Ape x Undefeated x Adidas Superstar 80s 'Blue Camo'"
+  },
+  "amahasla:6742:Пуховик Guess Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6742,
+   "posted": "2026-10-08T09:50:08+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Пуховик Guess Glossy"
+  },
+  "amahasla:6743:Пуховик Emporio Armani": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6743,
+   "posted": "2026-10-08T11:13:01+00:00",
+   "price": 19990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani"
+  },
+  "amahasla:6746:Пуховик Diesel W-Rolf-NW Polygiene ViralOff®": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6746,
+   "posted": "2026-10-08T14:40:08+00:00",
+   "price": 15990,
+   "reported": true,
+   "title": "Пуховик Diesel W-Rolf-NW Polygiene ViralOff®"
+  },
+  "amahasla:6747:Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6747,
+   "posted": "2026-10-08T16:01:43+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\""
+  },
+  "amahasla:6750:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6750,
+   "posted": "2026-10-09T07:53:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6751:Пуховик Guess Shiny Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6751,
+   "posted": "2026-10-09T09:35:03+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Пуховик Guess Shiny Glossy"
+  },
+  "amahasla:6752:Пуховик Guess Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6752,
+   "posted": "2026-10-09T10:43:01+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Пуховик Guess Logo"
+  },
+  "amahasla:6755:Пуховик Armani Exchange Icon Period": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6755,
+   "posted": "2026-10-09T14:20:06+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Пуховик Armani Exchange Icon Period"
+  },
+  "amahasla:6757:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6757,
+   "posted": "2026-10-09T16:45:11+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:6758:Пуховик Diesel Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6758,
+   "posted": "2026-10-09T18:10:08+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Пуховик Diesel Alaska"
+  },
+  "amahasla:6759:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6759,
+   "posted": "2026-10-10T06:40:33+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6760:Кеды Palm Angels Vulcanized Sneakers": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6760,
+   "posted": "2026-10-10T09:01:20+00:00",
+   "price": 9490,
+   "reported": true,
+   "title": "Кеды Palm Angels Vulcanized Sneakers"
+  },
+  "amahasla:6761:Бомбер Diesel Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6761,
+   "posted": "2026-10-10T10:23:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Бомбер Diesel Alaska"
+  },
+  "amahasla:6766:Кроссовки Nike NOCTA x Hot Step Air Terra “Light Bone”": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6766,
+   "posted": "2026-10-10T16:21:03+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Кроссовки Nike NOCTA x Hot Step Air Terra “Light Bone”"
+  },
+  "amahasla:6767:Пуховик Guess Shiny Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6767,
+   "posted": "2026-10-10T17:45:08+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Пуховик Guess Shiny Glossy"
+  },
+  "amahasla:6768:Пуховик Guess Logo Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6768,
+   "posted": "2026-10-10T18:40:08+00:00",
+   "price": 10490,
+   "reported": true,
+   "title": "Пуховик Guess Logo Glossy"
+  },
+  "amahasla:6769:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6769,
+   "posted": "2026-10-11T07:44:01+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6770:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6770,
+   "posted": "2026-10-11T09:50:06+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6776:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6776,
+   "posted": "2026-10-11T13:19:36+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6777:Пуховик-Жилетка Armani Exchange": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6777,
+   "posted": "2026-10-11T15:10:10+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Пуховик-Жилетка Armani Exchange"
+  },
+  "amahasla:6779:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6779,
+   "posted": "2026-10-11T16:21:19+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6780:Пуховик Emporio Armani EA7 Hooded Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6780,
+   "posted": "2026-10-11T18:40:07+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani EA7 Hooded Glossy"
+  },
+  "amahasla:6781:Пуховик Nike Sportswear Synthetic-Fill Windrunner \"Stone White\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6781,
+   "posted": "2026-10-12T06:25:04+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Пуховик Nike Sportswear Synthetic-Fill Windrunner \"Stone White\""
+  },
+  "amahasla:6783:Пуховик Emporio Armani": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6783,
+   "posted": "2026-10-12T09:20:06+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani"
+  },
+  "amahasla:6785:Пуховик Emporio Armani": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6785,
+   "posted": "2026-10-12T11:32:12+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani"
+  },
+  "amahasla:6786:Пуховик Nike Sportswear Synthetic-Fill Windrunner \"Stone White\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6786,
+   "posted": "2026-10-12T12:36:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Пуховик Nike Sportswear Synthetic-Fill Windrunner \"Stone White\""
+  },
+  "amahasla:6787:Пуховик Guess Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6787,
+   "posted": "2026-10-12T13:53:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Пуховик Guess Logo"
+  },
+  "amahasla:6788:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6788,
+   "posted": "2026-10-12T14:35:08+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6790:Пуховик Emporio Armani EA7 Hooded Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6790,
+   "posted": "2026-10-12T15:50:08+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani EA7 Hooded Glossy"
+  },
+  "amahasla:6791:Пуховик Guess Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6791,
+   "posted": "2026-10-13T10:54:32+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Пуховик Guess Logo"
+  },
+  "amahasla:6792:Бомбер Diesel Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6792,
+   "posted": "2026-10-13T11:51:09+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Бомбер Diesel Alaska"
+  },
+  "amahasla:6796:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6796,
+   "posted": "2026-10-13T15:41:45+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6802:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6802,
+   "posted": "2026-10-14T10:50:05+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6804:Пуховик Emporio Armani EA7": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6804,
+   "posted": "2026-10-14T12:40:07+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani EA7"
+  },
+  "amahasla:6805:Худи Marcelo Burlon": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6805,
+   "posted": "2026-10-14T13:46:01+00:00",
+   "price": 6990,
+   "reported": true,
+   "title": "Худи Marcelo Burlon"
+  },
+  "amahasla:6807:Зип-Худи Stone Island Organic Cotton Fleece": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6807,
+   "posted": "2026-10-15T06:25:09+00:00",
+   "price": 17990,
+   "reported": true,
+   "title": "Зип-Худи Stone Island Organic Cotton Fleece"
+  },
+  "amahasla:6808:Футболка Dolce & Gabbana Ultra Fashion Live Light": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6808,
+   "posted": "2026-10-15T08:04:03+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Футболка Dolce & Gabbana Ultra Fashion Live Light"
+  },
+  "amahasla:6809:Худи Dolce & Gabbana D&G": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6809,
+   "posted": "2026-10-15T09:40:04+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Худи Dolce & Gabbana D&G"
+  },
+  "amahasla:6810:Лонгслив Dolce & Gabbana D&G Love Hurts": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6810,
+   "posted": "2026-10-15T11:32:01+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Лонгслив Dolce & Gabbana D&G Love Hurts"
+  },
+  "amahasla:6812:Рюкзак Converse x Rick Owens DRKSHDW Oversized Go Lo Backpack": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6812,
+   "posted": "2026-10-15T13:55:06+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Рюкзак Converse x Rick Owens DRKSHDW Oversized Go Lo Backpack"
+  },
+  "amahasla:6815:Зип-Худи Diesel \"Манакане Трук Клуб” early 2000s(Y2K Era)": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6815,
+   "posted": "2026-10-16T06:40:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Зип-Худи Diesel \"Манакане Трук Клуб” early 2000s(Y2K Era)"
+  },
+  "amahasla:6817:Зип-Худи Adidas Y-3 Yohji Yamamoto": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6817,
+   "posted": "2026-10-16T08:51:01+00:00",
+   "price": 7990,
+   "reported": true,
+   "title": "Зип-Худи Adidas Y-3 Yohji Yamamoto"
+  },
+  "amahasla:6820:Рюкзак Eastpak x Jean Paul Gaultier": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6820,
+   "posted": "2026-10-16T13:48:01+00:00",
+   "price": 16490,
+   "reported": true,
+   "title": "Рюкзак Eastpak x Jean Paul Gaultier"
+  },
+  "amahasla:6821:Зип-Худи Diesel Archive 2000s": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6821,
+   "posted": "2026-10-16T15:04:15+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Зип-Худи Diesel Archive 2000s"
+  },
+  "amahasla:6823:Зип-Худи Diesel \"Манакане Трук Клуб” early 2000s(Y2K Era)": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6823,
+   "posted": "2026-10-17T06:44:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Зип-Худи Diesel \"Манакане Трук Клуб” early 2000s(Y2K Era)"
+  },
+  "amahasla:6825:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6825,
+   "posted": "2026-10-17T10:27:01+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6827:Куртка Guess Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6827,
+   "posted": "2026-10-17T13:10:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Куртка Guess Logo"
+  },
+  "amahasla:6829:Худи Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6829,
+   "posted": "2026-10-17T15:39:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Худи Stone Island"
+  },
+  "amahasla:6832:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6832,
+   "posted": "2026-10-18T06:25:03+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6834:Двусторонний Пуховик Guess Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6834,
+   "posted": "2026-10-18T10:43:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Двусторонний Пуховик Guess Logo"
+  },
+  "amahasla:6836:Пуховик Guess Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6836,
+   "posted": "2026-10-18T12:42:01+00:00",
+   "price": 7990,
+   "reported": true,
+   "title": "Пуховик Guess Logo"
+  },
+  "amahasla:6837:Куртка Guess Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6837,
+   "posted": "2026-10-18T14:32:24+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Куртка Guess Logo"
+  },
+  "amahasla:6838:Пуховик Jordan": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6838,
+   "posted": "2026-10-18T15:10:08+00:00",
+   "price": 10490,
+   "reported": true,
+   "title": "Пуховик Jordan"
+  },
+  "amahasla:6839:Пуховик Guess Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6839,
+   "posted": "2026-10-18T16:10:06+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Пуховик Guess Logo"
+  },
+  "amahasla:6841:Пуховик Guess Eco Pietros Padded": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6841,
+   "posted": "2026-10-19T09:45:05+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Пуховик Guess Eco Pietros Padded"
+  },
+  "amahasla:6842:Пуховик Guess Logo Camo Blue": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6842,
+   "posted": "2026-10-19T10:47:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Пуховик Guess Logo Camo Blue"
+  },
+  "amahasla:6843:Пуховик Guess Logo Camo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6843,
+   "posted": "2026-10-19T12:22:01+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Пуховик Guess Logo Camo"
+  },
+  "amahasla:6844:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6844,
+   "posted": "2026-10-19T13:25:07+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:6845:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6845,
+   "posted": "2026-10-19T14:47:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:6846:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6846,
+   "posted": "2026-10-19T16:00:48+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:6848:Кроссовки Adidas Y-3 Yohji Yamamoto": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6848,
+   "posted": "2026-10-20T08:41:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Кроссовки Adidas Y-3 Yohji Yamamoto"
+  },
+  "amahasla:6849:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6849,
+   "posted": "2026-10-20T10:01:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6850:Кроссовки McQ by Alexander McQueen Swallow Plimsoll High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6850,
+   "posted": "2026-10-20T11:34:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Кроссовки McQ by Alexander McQueen Swallow Plimsoll High-Top"
+  },
+  "amahasla:6853:Cinzia Araia Zipped High-Top Socks": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6853,
+   "posted": "2026-10-20T14:57:01+00:00",
+   "price": 19990,
+   "reported": true,
+   "title": "Cinzia Araia Zipped High-Top Socks"
+  },
+  "amahasla:6857:Кроссовки END. x Mastermind Japan x Vans Sk8-Hi White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6857,
+   "posted": "2026-10-21T08:40:09+00:00",
+   "price": 17990,
+   "reported": true,
+   "title": "Кроссовки END. x Mastermind Japan x Vans Sk8-Hi White"
+  },
+  "amahasla:6859:Кроссовки Versace High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6859,
+   "posted": "2026-10-21T11:54:01+00:00",
+   "price": 16990,
+   "reported": true,
+   "title": "Кроссовки Versace High-Top"
+  },
+  "amahasla:6860:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6860,
+   "posted": "2026-10-21T13:27:01+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:6863:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6863,
+   "posted": "2026-10-21T16:02:01+00:00",
+   "price": 16990,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:6868:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6868,
+   "posted": "2026-10-22T10:40:07+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:6871:Пуховик Jordan": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6871,
+   "posted": "2026-10-22T15:20:04+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Пуховик Jordan"
+  },
+  "amahasla:6873:Бомбер Diesel Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6873,
+   "posted": "2026-10-23T06:34:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Бомбер Diesel Alaska"
+  },
+  "amahasla:6879:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6879,
+   "posted": "2026-10-23T14:31:01+00:00",
+   "price": 15990,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:6880:1": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6880,
+   "posted": "2026-10-23T15:00:03+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "1"
+  },
+  "amahasla:6880:5": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6880,
+   "posted": "2026-10-23T15:00:03+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "5"
+  },
+  "amahasla:6880:6": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6880,
+   "posted": "2026-10-23T15:00:03+00:00",
+   "price": 8490,
+   "reported": true,
+   "title": "6"
+  },
+  "amahasla:6880:8": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6880,
+   "posted": "2026-10-23T15:00:03+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "8"
+  },
+  "amahasla:6880:9": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6880,
+   "posted": "2026-10-23T15:00:03+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "9"
+  },
+  "amahasla:6890:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6890,
+   "posted": "2026-10-25T09:25:08+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6891:Кроссовки Nike Air Force 1 Mid Off-White": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6891,
+   "posted": "2026-10-25T11:33:43+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Кроссовки Nike Air Force 1 Mid Off-White"
+  },
+  "amahasla:6892:Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6892,
+   "posted": "2026-10-25T12:45:06+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\""
+  },
+  "amahasla:6893:Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6893,
+   "posted": "2026-10-25T14:46:02+00:00",
+   "price": 11490,
+   "reported": true,
+   "title": "Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\""
+  },
+  "amahasla:6900:Пуховик Armani Exchange": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6900,
+   "posted": "2026-10-26T12:40:04+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Пуховик Armani Exchange"
+  },
+  "amahasla:6904:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6904,
+   "posted": "2026-10-27T06:50:08+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6905:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6905,
+   "posted": "2026-10-27T09:44:01+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6907:Кроссовки Nike NDSTRKT Air Force 1": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6907,
+   "posted": "2026-10-27T12:12:11+00:00",
+   "price": 7990,
+   "reported": true,
+   "title": "Кроссовки Nike NDSTRKT Air Force 1"
+  },
+  "amahasla:6908:Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6908,
+   "posted": "2026-10-27T14:06:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\""
+  },
+  "amahasla:6909:Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\"": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6909,
+   "posted": "2026-10-27T15:10:06+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\""
+  },
+  "amahasla:6910:Пуховик Armani Exchange Icon Period": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6910,
+   "posted": "2026-10-27T16:10:38+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Пуховик Armani Exchange Icon Period"
+  },
+  "amahasla:6911:Кроссовки Nike NDSTRKT Air Force 1": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6911,
+   "posted": "2026-10-28T06:55:03+00:00",
+   "price": 7790,
+   "reported": true,
+   "title": "Кроссовки Nike NDSTRKT Air Force 1"
+  },
+  "amahasla:6912:Кеды Vivienne Westwood Plimsoll Low-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6912,
+   "posted": "2026-10-28T09:08:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Кеды Vivienne Westwood Plimsoll Low-Top"
+  },
+  "amahasla:6916:Двусторонний Пуховик Adidas Originals Down Regen Camo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6916,
+   "posted": "2026-10-28T14:30:22+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Двусторонний Пуховик Adidas Originals Down Regen Camo"
+  },
+  "amahasla:6918:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6918,
+   "posted": "2026-10-29T06:45:03+00:00",
+   "price": 14490,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:6920:Пуховик Jordan": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6920,
+   "posted": "2026-10-29T10:50:08+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Пуховик Jordan"
+  },
+  "amahasla:6921:Пуховик Diesel “FOR SUCCESSFUL LIVING”": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6921,
+   "posted": "2026-10-29T12:10:04+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Пуховик Diesel “FOR SUCCESSFUL LIVING”"
+  },
+  "amahasla:6923:Куртка Guess Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6923,
+   "posted": "2026-10-29T14:36:01+00:00",
+   "price": 11490,
+   "reported": true,
+   "title": "Куртка Guess Logo"
+  },
+  "amahasla:6924:Пуховик Emporio Armani": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6924,
+   "posted": "2026-10-29T16:01:49+00:00",
+   "price": 19990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani"
+  },
+  "amahasla:6927:Пуховик Jordan": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6927,
+   "posted": "2026-10-30T06:50:05+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Пуховик Jordan"
+  },
+  "amahasla:6928:Пуховик Diesel": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6928,
+   "posted": "2026-10-30T09:05:33+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Пуховик Diesel"
+  },
+  "amahasla:6929:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6929,
+   "posted": "2026-10-30T11:10:08+00:00",
+   "price": 11490,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6930:Двусторонний Пуховик Adidas Originals": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6930,
+   "posted": "2026-10-30T13:04:03+00:00",
+   "price": 11490,
+   "reported": true,
+   "title": "Двусторонний Пуховик Adidas Originals"
+  },
+  "amahasla:6933:Пуховик Guess Glossy Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6933,
+   "posted": "2026-10-30T15:48:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Пуховик Guess Glossy Alaska"
+  },
+  "amahasla:6934:Крест Dsquraed 2": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6934,
+   "posted": "2026-10-31T06:45:04+00:00",
+   "price": 7990,
+   "reported": true,
+   "title": "Крест Dsquraed 2"
+  },
+  "amahasla:6935:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6935,
+   "posted": "2026-10-31T08:00:30+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6937:Браслет Givenchy Metal Link": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6937,
+   "posted": "2026-10-31T11:03:09+00:00",
+   "price": 8490,
+   "reported": true,
+   "title": "Браслет Givenchy Metal Link"
+  },
+  "amahasla:6938:Пуховик Calvin Klein cK Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6938,
+   "posted": "2026-10-31T11:38:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK Glossy"
+  },
+  "amahasla:6940:Пуховик Emporio Armani": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6940,
+   "posted": "2026-10-31T14:01:09+00:00",
+   "price": 17990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani"
+  },
+  "amahasla:6941:Двусторонний Пуховик Adidas Originals Down Regen Camo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6941,
+   "posted": "2026-10-31T15:37:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Двусторонний Пуховик Adidas Originals Down Regen Camo"
+  },
+  "amahasla:6947:Пуховик Guess Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6947,
+   "posted": "2026-11-01T13:58:38+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Пуховик Guess Logo"
+  },
+  "amahasla:6948:Пуховик Guess Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6948,
+   "posted": "2026-11-01T15:38:03+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Пуховик Guess Logo"
+  },
+  "amahasla:6949:Пуховик Diesel Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6949,
+   "posted": "2026-11-02T07:53:01+00:00",
+   "price": 15990,
+   "reported": true,
+   "title": "Пуховик Diesel Alaska"
+  },
+  "amahasla:6950:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6950,
+   "posted": "2026-11-02T09:39:01+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:6951:Пуховик Guess Shiny Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6951,
+   "posted": "2026-11-02T10:59:01+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Пуховик Guess Shiny Glossy"
+  },
+  "amahasla:6952:Шапка Moncler": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6952,
+   "posted": "2026-11-02T12:25:08+00:00",
+   "price": 8290,
+   "reported": true,
+   "title": "Шапка Moncler"
+  },
+  "amahasla:6958:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6958,
+   "posted": "2026-11-03T12:01:46+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6960:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6960,
+   "posted": "2026-11-03T16:03:46+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6961:Пуховик Guess Shiny Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6961,
+   "posted": "2026-11-04T06:56:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Пуховик Guess Shiny Glossy"
+  },
+  "amahasla:6962:Пуховик Guess Shiny Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6962,
+   "posted": "2026-11-04T09:15:06+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Пуховик Guess Shiny Glossy"
+  },
+  "amahasla:6964:Пуховик Tommy Jeans": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6964,
+   "posted": "2026-11-04T12:07:01+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Пуховик Tommy Jeans"
+  },
+  "amahasla:6967:Зип-Худи Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6967,
+   "posted": "2026-11-04T14:23:01+00:00",
+   "price": 16990,
+   "reported": true,
+   "title": "Зип-Худи Stone Island"
+  },
+  "amahasla:6968:Пуховик Dolce & Gabbana Alaska Vintage": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6968,
+   "posted": "2026-11-04T16:45:02+00:00",
+   "price": 37990,
+   "reported": true,
+   "title": "Пуховик Dolce & Gabbana Alaska Vintage"
+  },
+  "amahasla:6969:Пуховик Dolce & Gabbana D&G Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6969,
+   "posted": "2026-11-05T06:44:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Пуховик Dolce & Gabbana D&G Alaska"
+  },
+  "amahasla:6973:Пуховик Diesel": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6973,
+   "posted": "2026-11-05T12:16:01+00:00",
+   "price": 15990,
+   "reported": true,
+   "title": "Пуховик Diesel"
+  },
+  "amahasla:6975:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6975,
+   "posted": "2026-11-05T15:44:01+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:6978:Пуховик Armani Exchange Icon Period": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6978,
+   "posted": "2026-11-06T10:35:04+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Пуховик Armani Exchange Icon Period"
+  },
+  "amahasla:6983:Пуховик Emporio Armani Glossy": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6983,
+   "posted": "2026-11-06T16:11:16+00:00",
+   "price": 15990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani Glossy"
+  },
+  "amahasla:6986:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6986,
+   "posted": "2026-11-07T10:46:13+00:00",
+   "price": 14490,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:6987:Пуховик Armani Jeans": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6987,
+   "posted": "2026-11-07T12:26:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Пуховик Armani Jeans"
+  },
+  "amahasla:6988:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6988,
+   "posted": "2026-11-07T14:00:32+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6990:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6990,
+   "posted": "2026-11-07T16:04:01+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:6994:Пуховик Polo Ralph Lauren Suisse": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6994,
+   "posted": "2026-11-08T10:38:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Пуховик Polo Ralph Lauren Suisse"
+  },
+  "amahasla:6996:Пуховик Diesel": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6996,
+   "posted": "2026-11-08T11:39:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Пуховик Diesel"
+  },
+  "amahasla:6997:Пуховик Jordan": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6997,
+   "posted": "2026-11-08T12:40:10+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Пуховик Jordan"
+  },
+  "amahasla:6998:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6998,
+   "posted": "2026-11-08T14:39:01+00:00",
+   "price": 14490,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:6999:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 6999,
+   "posted": "2026-11-08T15:39:02+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:7000:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7000,
+   "posted": "2026-11-08T16:50:11+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:7002:Пуховик Emporio Armani как у FRIENDLY THUG 52 NGG": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7002,
+   "posted": "2026-11-09T08:48:01+00:00",
+   "price": 19990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani как у FRIENDLY THUG 52 NGG"
+  },
+  "amahasla:7006:Пуховик Dolce & Gabbana D&G": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7006,
+   "posted": "2026-11-09T14:44:01+00:00",
+   "price": 23990,
+   "reported": true,
+   "title": "Пуховик Dolce & Gabbana D&G"
+  },
+  "amahasla:7010:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7010,
+   "posted": "2026-11-10T10:32:15+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:7012:Пуховик Lacoste": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7012,
+   "posted": "2026-11-10T11:42:50+00:00",
+   "price": 15990,
+   "reported": true,
+   "title": "Пуховик Lacoste"
+  },
+  "amahasla:7022:Кроссовки Adidas Jeremy Scott x Superstar “Money”": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7022,
+   "posted": "2026-11-11T13:09:01+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Кроссовки Adidas Jeremy Scott x Superstar “Money”"
+  },
+  "amahasla:7025:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7025,
+   "posted": "2026-11-11T15:42:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:7029:Кроссовки Converse x AMBUSH Chuck 70 High «Fuzzy» in Navy Blue": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7029,
+   "posted": "2026-11-12T10:40:02+00:00",
+   "price": 9290,
+   "reported": true,
+   "title": "Кроссовки Converse x AMBUSH Chuck 70 High «Fuzzy» in Navy Blue"
+  },
+  "amahasla:7031:Пуховик Tommy Jeans": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7031,
+   "posted": "2026-11-12T13:11:02+00:00",
+   "price": 10490,
+   "reported": true,
+   "title": "Пуховик Tommy Jeans"
+  },
+  "amahasla:7039:Бомбер Diesel Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7039,
+   "posted": "2026-11-13T13:24:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Бомбер Diesel Alaska"
+  },
+  "amahasla:7040:Пуховик Armani Exchange Icon Period": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7040,
+   "posted": "2026-11-13T14:41:01+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Пуховик Armani Exchange Icon Period"
+  },
+  "amahasla:7041:Кроссовки Moschino Milano Leather": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7041,
+   "posted": "2026-11-13T16:13:01+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Кроссовки Moschino Milano Leather"
+  },
+  "amahasla:7042:Converse x Rick Owens DRKSHDW TURBOWPN Mid": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7042,
+   "posted": "2026-11-14T06:15:08+00:00",
+   "price": 18990,
+   "reported": true,
+   "title": "Converse x Rick Owens DRKSHDW TURBOWPN Mid"
+  },
+  "amahasla:7045:Кроссовки Alexander McQueen x PUMA Street Climb Mid": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7045,
+   "posted": "2026-11-14T12:15:09+00:00",
+   "price": 9490,
+   "reported": true,
+   "title": "Кроссовки Alexander McQueen x PUMA Street Climb Mid"
+  },
+  "amahasla:7052:Пуховик Diesel Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7052,
+   "posted": "2026-11-15T15:20:06+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Пуховик Diesel Alaska"
+  },
+  "amahasla:7053:Пуховик Emporio Armani как у Friendly Thug 52 NGG": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7053,
+   "posted": "2026-11-15T16:33:10+00:00",
+   "price": 20990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani как у Friendly Thug 52 NGG"
+  },
+  "amahasla:7062:Пуховик GU x Undercover": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7062,
+   "posted": "2026-11-16T12:05:07+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Пуховик GU x Undercover"
+  },
+  "amahasla:7069:Кеды Giuseppe Zanotti Black Leather High-Top": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7069,
+   "posted": "2026-11-17T06:34:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Кеды Giuseppe Zanotti Black Leather High-Top"
+  },
+  "amahasla:7071:Пуховик-Жилетка Armani Exchange": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7071,
+   "posted": "2026-11-17T10:16:01+00:00",
+   "price": 13990,
+   "reported": true,
+   "title": "Пуховик-Жилетка Armani Exchange"
+  },
+  "amahasla:7073:Пуховик Adidas Originals Down Regen": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7073,
+   "posted": "2026-11-17T11:55:09+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Пуховик Adidas Originals Down Regen"
+  },
+  "amahasla:7080:Зип-Худи Diesel": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7080,
+   "posted": "2026-11-18T10:28:01+00:00",
+   "price": 8490,
+   "reported": true,
+   "title": "Зип-Худи Diesel"
+  },
+  "amahasla:7082:Пуховик Dolce & Gabbana D&G Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7082,
+   "posted": "2026-11-18T13:22:01+00:00",
+   "price": 29990,
+   "reported": true,
+   "title": "Пуховик Dolce & Gabbana D&G Alaska"
+  },
+  "amahasla:7090:Пуховик Armani Exchange Icon Period": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7090,
+   "posted": "2026-11-19T13:38:01+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Пуховик Armani Exchange Icon Period"
+  },
+  "amahasla:7093:Пуховик Guess": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7093,
+   "posted": "2026-11-19T16:22:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Пуховик Guess"
+  },
+  "amahasla:7096:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7096,
+   "posted": "2026-11-20T10:41:01+00:00",
+   "price": 12490,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:7097:Пуховик Polo Ralph Lauren Suisse": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7097,
+   "posted": "2026-11-20T12:09:01+00:00",
+   "price": 16490,
+   "reported": true,
+   "title": "Пуховик Polo Ralph Lauren Suisse"
+  },
+  "amahasla:7099:Худи Гоша Рубчинский Флаги": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7099,
+   "posted": "2026-11-20T14:20:08+00:00",
+   "price": 8990,
+   "reported": true,
+   "title": "Худи Гоша Рубчинский Флаги"
+  },
+  "amahasla:7100:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7100,
+   "posted": "2026-11-20T15:31:01+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:7101:Пуховик Calvin Klein cK": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7101,
+   "posted": "2026-11-20T16:34:48+00:00",
+   "price": 11990,
+   "reported": true,
+   "title": "Пуховик Calvin Klein cK"
+  },
+  "amahasla:7102:Худи Balmain x H&M": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7102,
+   "posted": "2026-11-21T07:50:06+00:00",
+   "price": 6790,
+   "reported": true,
+   "title": "Худи Balmain x H&M"
+  },
+  "amahasla:7103:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7103,
+   "posted": "2026-11-21T09:33:01+00:00",
+   "price": 13490,
+   "reported": true,
+   "title": "Свитшот Stone Island"
+  },
+  "amahasla:7107:Худи Marcelo Burlon": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7107,
+   "posted": "2026-11-21T16:35:10+00:00",
+   "price": 7490,
+   "reported": true,
+   "title": "Худи Marcelo Burlon"
+  },
+  "amahasla:7109:Бомбер Diesel W-Burkisk Alaska": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7109,
+   "posted": "2026-11-21T18:35:45+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Бомбер Diesel W-Burkisk Alaska"
+  },
+  "amahasla:7110:Футболка Dolce & Gabbana Milano": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7110,
+   "posted": "2026-11-22T06:48:01+00:00",
+   "price": 5990,
+   "reported": true,
+   "title": "Футболка Dolce & Gabbana Milano"
+  },
+  "amahasla:7111:Поло Yves Saint Laurent": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7111,
+   "posted": "2026-11-22T09:04:19+00:00",
+   "price": 6990,
+   "reported": true,
+   "title": "Поло Yves Saint Laurent"
+  },
+  "amahasla:7113:Пуховик Emporio Armani": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7113,
+   "posted": "2026-11-22T11:53:02+00:00",
+   "price": 19990,
+   "reported": true,
+   "title": "Пуховик Emporio Armani"
+  },
+  "amahasla:7118:Пуховик Galliano": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7118,
+   "posted": "2026-11-23T08:06:01+00:00",
+   "price": 14990,
+   "reported": true,
+   "title": "Пуховик Galliano"
+  },
+  "amahasla:7121:Пуховик Guess Logo": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7121,
+   "posted": "2026-11-23T13:03:01+00:00",
+   "price": 10990,
+   "reported": true,
+   "title": "Пуховик Guess Logo"
+  },
+  "amahasla:7146:Зип-Худи Dolce & Gabbana D&G": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7146,
+   "posted": "2026-11-25T08:05:04+00:00",
+   "price": 12990,
+   "reported": true,
+   "title": "Зип-Худи Dolce & Gabbana D&G"
+  },
+  "amahasla:7151:Зип-Худи C.P. Company": {
+   "channel": "amahasla",
+   "detected": null,
+   "post_id": 7151,
+   "posted": "2026-11-25T16:35:07+00:00",
+   "price": 9990,
+   "reported": true,
+   "title": "Зип-Худи C.P. Company"
+  },
+  "rusclothing:20687:Хайтопы Giuseppe Zanotti": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20687,
+   "posted": "2026-10-24T13:11:01+00:00",
+   "price": 8500,
+   "reported": true,
+   "title": "Хайтопы Giuseppe Zanotti"
+  },
+  "rusclothing:20695:Y-3 Yohji Ajatu Court Low": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20695,
+   "posted": "2026-10-26T17:14:00+00:00",
+   "price": 8000,
+   "reported": true,
+   "title": "Y-3 Yohji Ajatu Court Low"
+  },
+  "rusclothing:20708:Хайтопы Giuseppe Zanotti Wings": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20708,
+   "posted": "2026-10-26T20:21:14+00:00",
+   "price": 14000,
+   "reported": true,
+   "title": "Хайтопы Giuseppe Zanotti Wings"
+  },
+  "rusclothing:20716:Кеды Valentino Open Atelier": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20716,
+   "posted": "2026-10-27T15:25:34+00:00",
+   "price": 26000,
+   "reported": true,
+   "title": "Кеды Valentino Open Atelier"
+  },
+  "rusclothing:20724:Матрешки Maison Martin Margiela": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20724,
+   "posted": "2026-10-27T16:13:46+00:00",
+   "price": 55000,
+   "reported": true,
+   "title": "Матрешки Maison Martin Margiela"
+  },
+  "rusclothing:20730:Хайтопы Giuseppe Zanotti": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20730,
+   "posted": "2026-10-27T20:35:38+00:00",
+   "price": 16000,
+   "reported": true,
+   "title": "Хайтопы Giuseppe Zanotti"
+  },
+  "rusclothing:20746:Хайтопы Giuseppe Zanotti": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20746,
+   "posted": "2026-10-28T13:36:18+00:00",
+   "price": 14000,
+   "reported": true,
+   "title": "Хайтопы Giuseppe Zanotti"
+  },
+  "rusclothing:20754:Хайтопы Giuseppe Zanotti Crystal": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20754,
+   "posted": "2026-10-28T17:33:23+00:00",
+   "price": 16000,
+   "reported": true,
+   "title": "Хайтопы Giuseppe Zanotti Crystal"
+  },
+  "rusclothing:20781:Хайтопы Giuseppe Zanotti": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20781,
+   "posted": "2026-10-29T08:05:21+00:00",
+   "price": 16000,
+   "reported": true,
+   "title": "Хайтопы Giuseppe Zanotti"
+  },
+  "rusclothing:20797:Кеды Valentino Garavani Butterfly": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20797,
+   "posted": "2026-10-29T12:57:56+00:00",
+   "price": 14000,
+   "reported": true,
+   "title": "Кеды Valentino Garavani Butterfly"
+  },
+  "rusclothing:20805:Хайтопы Giuseppe Zanotti": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20805,
+   "posted": "2026-10-29T14:05:31+00:00",
+   "price": 15000,
+   "reported": true,
+   "title": "Хайтопы Giuseppe Zanotti"
+  },
+  "rusclothing:20847:Хайтопы Giuseppe Zanotti": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20847,
+   "posted": "2026-10-30T10:28:03+00:00",
+   "price": 18000,
+   "reported": true,
+   "title": "Хайтопы Giuseppe Zanotti"
+  },
+  "rusclothing:20891:Converse Undercover Zip": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20891,
+   "posted": "2026-11-01T12:25:51+00:00",
+   "price": 18000,
+   "reported": true,
+   "title": "Converse Undercover Zip"
+  },
+  "rusclothing:20932:Converse Mastermind 2011": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 20932,
+   "posted": "2026-11-02T14:55:16+00:00",
+   "price": 13000,
+   "reported": true,
+   "title": "Converse Mastermind 2011"
+  },
+  "rusclothing:21002:Шарф Yohji Yamamoto Bristol": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21002,
+   "posted": "2026-11-04T09:45:26+00:00",
+   "price": 10000,
+   "reported": true,
+   "title": "Шарф Yohji Yamamoto Bristol"
+  },
+  "rusclothing:21013:Шапка Undercover GU": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21013,
+   "posted": "2026-11-04T14:15:30+00:00",
+   "price": 4000,
+   "reported": true,
+   "title": "Шапка Undercover GU"
+  },
+  "rusclothing:21020:Шарфы Nya Ne-Net широкие": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21020,
+   "posted": "2026-11-04T15:04:49+00:00",
+   "price": 3000,
+   "reported": true,
+   "title": "Шарфы Nya Ne-Net широкие"
+  },
+  "rusclothing:21038:Шарф Y-3 Yohji Yamamoto": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21038,
+   "posted": "2026-11-04T16:57:37+00:00",
+   "price": 6000,
+   "reported": true,
+   "title": "Шарф Y-3 Yohji Yamamoto"
+  },
+  "rusclothing:21054:Худи Philipp Plein Russia": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21054,
+   "posted": "2026-11-05T08:44:30+00:00",
+   "price": 31000,
+   "reported": true,
+   "title": "Худи Philipp Plein Russia"
+  },
+  "rusclothing:21059:Зип Philippe Plein Russia": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21059,
+   "posted": "2026-11-05T11:41:31+00:00",
+   "price": 20000,
+   "reported": true,
+   "title": "Зип Philippe Plein Russia"
+  },
+  "rusclothing:21070:Игрушка Брелок": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21070,
+   "posted": "2026-11-05T14:25:17+00:00",
+   "price": null,
+   "reported": true,
+   "title": "Игрушка Брелок"
+  },
+  "rusclothing:21076:Хайтопы Giuseppe Zanotti": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21076,
+   "posted": "2026-11-05T15:05:47+00:00",
+   "price": 13000,
+   "reported": true,
+   "title": "Хайтопы Giuseppe Zanotti"
+  },
+  "rusclothing:21092:Хайтопы Giuseppe Zanotti Leopard": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21092,
+   "posted": "2026-11-06T11:48:50+00:00",
+   "price": 14500,
+   "reported": true,
+   "title": "Хайтопы Giuseppe Zanotti Leopard"
+  },
+  "rusclothing:21116:Свитер Chanel Uniform": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21116,
+   "posted": "2026-11-06T16:33:03+00:00",
+   "price": 14000,
+   "reported": true,
+   "title": "Свитер Chanel Uniform"
+  },
+  "rusclothing:21121:Giuseppe Zanotti Low Crystal": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21121,
+   "posted": "2026-11-06T18:22:19+00:00",
+   "price": 14000,
+   "reported": true,
+   "title": "Giuseppe Zanotti Low Crystal"
+  },
+  "rusclothing:21161:Giuseppe Zanotti Glitter": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21161,
+   "posted": "2026-11-07T17:44:20+00:00",
+   "price": 8500,
+   "reported": true,
+   "title": "Giuseppe Zanotti Glitter"
+  },
+  "rusclothing:21220:Adidas Raf Simons Platform Lace": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21220,
+   "posted": "2026-11-09T14:40:22+00:00",
+   "price": 36000,
+   "reported": true,
+   "title": "Adidas Raf Simons Platform Lace"
+  },
+  "rusclothing:21228:Свитшот Alexander Mcqueen MCQ": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21228,
+   "posted": "2026-11-09T17:48:35+00:00",
+   "price": null,
+   "reported": true,
+   "title": "Свитшот Alexander Mcqueen MCQ"
+  },
+  "rusclothing:21233:Кеды Vivienne Westwood": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21233,
+   "posted": "2026-11-09T18:39:36+00:00",
+   "price": 14500,
+   "reported": true,
+   "title": "Кеды Vivienne Westwood"
+  },
+  "rusclothing:21241:Хайтопы Versace Versus": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21241,
+   "posted": "2026-11-10T09:15:26+00:00",
+   "price": 17000,
+   "reported": true,
+   "title": "Хайтопы Versace Versus"
+  },
+  "rusclothing:21290:Хайтопы Philipp Plein Gloria": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21290,
+   "posted": "2026-11-11T15:09:27+00:00",
+   "price": 30000,
+   "reported": true,
+   "title": "Хайтопы Philipp Plein Gloria"
+  },
+  "rusclothing:21301:Хайтопы Giuseppe Zanotti": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21301,
+   "posted": "2026-11-12T08:36:01+00:00",
+   "price": 14000,
+   "reported": true,
+   "title": "Хайтопы Giuseppe Zanotti"
+  },
+  "rusclothing:21375:Худи Dolce&Gabbana": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21375,
+   "posted": "2026-11-14T15:12:54+00:00",
+   "price": 12000,
+   "reported": true,
+   "title": "Худи Dolce&Gabbana"
+  },
+  "rusclothing:21388:Adidas Jeremy Scott Instinct Hi": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21388,
+   "posted": "2026-11-14T15:57:08+00:00",
+   "price": 17000,
+   "reported": true,
+   "title": "Adidas Jeremy Scott Instinct Hi"
+  },
+  "rusclothing:21421:Alexander McQueen Pink Platform": {
+   "channel": "rusclothing",
+   "detected": null,
+   "post_id": 21421,
+   "posted": "2026-11-16T17:55:47+00:00",
+   "price": 12000,
+   "reported": true,
+   "title": "Alexander McQueen Pink Platform"
+  },
+  "rusclothing:21429:Сумка Ne-Net": {
+   "channel": "rusclothing",
    "detected": null,
    "post_id": 21429,
    "posted": "2026-11-16T20:32:21+00:00",
