@@ -3,7 +3,7 @@
 
 За один запуск:
   1. читает новые команды боту (/today, /month, /check, /start, /chatid) и отвечает на них;
-  2. смотрит выдачу поиска по ❌ в канале и запоминает новые проданные позиции;
+  2. смотрит выдачу поиска по ❌ и свежую ленту канала и запоминает новые проданные позиции;
   3. после REPORT_HOUR:00 по Китаю (один раз в сутки) присылает итог дня и список новых проданных;
   4. сохраняет состояние в state.json (его коммитит workflow).
 """
@@ -47,9 +47,9 @@ def scan_sold_pages(pages):
 
 
 def check_new(st, posts=None):
-    """Ищет новые ❌ среди постов из поиска. Первый запуск только запоминает базу."""
+    """Ищет новые ❌ среди постов из поиска и свежей ленты. Первый запуск только запоминает базу."""
     if posts is None:
-        posts = scan_sold_pages(bot.SCAN_PAGES)
+        posts = scan_sold_pages(bot.SCAN_PAGES) + bot.scan_recent(int(os.environ.get("RECENT_PAGES", "40")))
     now = datetime.now(timezone.utc).isoformat()
     first = not st.get("init_sold")
     added = 0
@@ -63,7 +63,7 @@ def check_new(st, posts=None):
                                "detected": None if first else now, "reported": first}
             added += 1
     st["init_sold"] = True
-    print(f"проверка: постов с ❌ прочитано {len(posts)}, новых позиций {0 if first else added}"
+    print(f"проверка: постов прочитано {len(posts)}, новых позиций {0 if first else added}"
           f"{' (первый запуск, база сохранена)' if first else ''}", flush=True)
     return 0 if first else added
 
