@@ -37,6 +37,7 @@ def scan_sold_pages(pages):
     for _ in range(pages):
         url = f"https://t.me/s/{bot.CHANNEL}?q={urllib.parse.quote(bot.SOLD)}" + (f"&before={before}" if before else "")
         got = bot.parse_page(bot.fetch(url))
+        print(f"страница поиска: {url} -> постов {len(got)}", flush=True)
         if not got:
             break
         out += got
