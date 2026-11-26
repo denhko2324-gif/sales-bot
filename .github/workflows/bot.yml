@@ -1,0 +1,45 @@
+name: sales-bot
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # каждые 10 минут (GitHub может запускать с задержкой)
+  workflow_dispatch:           # ручной запуск кнопкой Run workflow
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sales-bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run bot
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          ALLOWED_CHAT_IDS: ${{ secrets.ALLOWED_CHAT_IDS }}
+          CHANNEL: rusclothing
+          REPORT_HOUR: "21"
+          SCAN_PAGES: "6"
+          DB_PATH: ":memory:"
+        run: python actions_bot.py
+
+      - name: Save state
+        run: |
+          git config user.name "sales-bot"
+          git config user.email "sales-bot@users.noreply.github.com"
+          git add state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "update state"
+            git pull --rebase
+            git push
+          fi
