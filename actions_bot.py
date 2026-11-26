@@ -3,7 +3,7 @@
 
 За один запуск:
   1. читает новые команды боту (/today, /month, /check, /start, /chatid) и отвечает на них;
-  2. смотрит выдачу поиска по ❌ и свежую ленту канала и запоминает новые проданные позиции;
+  2. смотрит выдачу поиска по ❌ в канале и запоминает новые проданные позиции;
   3. после REPORT_HOUR:00 по Китаю (один раз в сутки) присылает итог дня и список новых проданных;
   4. сохраняет состояние в state.json (его коммитит workflow).
 """
@@ -16,6 +16,19 @@ from datetime import datetime, timedelta, timezone
 import bot  # парсер и тексты сообщений из bot.py (нужен DB_PATH=:memory:, см. workflow)
 
 STATE_FILE = os.environ.get("STATE_FILE", "state.json")
+CHANNELS = [c.strip().lstrip("@") for c in os.environ.get("CHANNELS", "rusclothing,amahasla").split(",") if c.strip()]
+
+
+class _Post:
+    def __init__(self, p, text):
+        self.id, self.text, self.posted = p.id, text, p.posted
+
+
+def sold_of(p):
+    """Проданные позиции поста: ❌ или хештег #продано (на @amahasla)."""
+    if bot.SOLD not in p.text and "#продано" in p.text.lower():
+        p = _Post(p, bot.SOLD + " " + p.text)
+    return bot.sold_items(p)
 
 
 def load_state():
@@ -32,7 +45,7 @@ def save_state(st):
 
 
 def scan_sold_pages(pages):
-    """Посты с ❌ через поиск по каналу (самые свежие по номеру поста), по pages страниц."""
+    """Посты с ❌ через поиск по каналу (bot.CHANNEL), по pages страниц."""
     out, before = [], None
     for _ in range(pages):
         url = f"https://t.me/s/{bot.CHANNEL}?q={urllib.parse.quote(bot.SOLD)}" + (f"&before={before}" if before else "")
@@ -46,55 +59,109 @@ def scan_sold_pages(pages):
     return out
 
 
-def check_new(st, posts=None):
-    """Ищет новые ❌ среди постов из поиска и свежей ленты. Первый запуск только запоминает базу."""
-    if posts is None:
-        posts = scan_sold_pages(bot.SCAN_PAGES) + bot.scan_recent(int(os.environ.get("RECENT_PAGES", "40")))
+def scan_channel(ch):
+    bot.CHANNEL = ch
+    posts, seen = [], set()
+    for p in scan_sold_pages(bot.SCAN_PAGES) + bot.scan_recent(int(os.environ.get("RECENT_PAGES", "40"))):
+        if p.id not in seen:
+            seen.add(p.id)
+            posts.append(p)
+    return posts
+
+
+def check_new(st, posts_by_channel=None):
+    """Ищет новые проданные среди постов каналов. Новый канал в первый раз только запоминает базу."""
     now = datetime.now(timezone.utc).isoformat()
-    first = not st.get("init_sold")
-    added = 0
-    for p in posts:
-        for title, price in bot.sold_items(p):
-            key = f"{p.id}:{title}"
-            if key in st["sold"]:
-                continue
-            st["sold"][key] = {"post_id": p.id, "title": title, "price": price,
-                               "posted": p.posted.isoformat() if p.posted else None,
-                               "detected": None if first else now, "reported": first}
-            added += 1
+    inited = st.setdefault("init_channels", [])
+    total_added = 0
+    for ch in CHANNELS:
+        try:
+            posts = posts_by_channel[ch] if posts_by_channel else scan_channel(ch)
+        except Exception as e:
+            print(f"канал @{ch}: ошибка чтения: {e}", flush=True)
+            continue
+        first = ch not in inited
+        added = 0
+        for p in posts:
+            for title, price in sold_of(p):
+                key = f"{ch}:{p.id}:{title}"
+                if key in st["sold"]:
+                    continue
+                st["sold"][key] = {"channel": ch, "post_id": p.id, "title": title, "price": price,
+                                   "posted": p.posted.isoformat() if p.posted else None,
+                                   "detected": None if first else now, "reported": first}
+                added += 1
+        inited.append(ch) if first else None
+        print(f"проверка @{ch}: постов прочитано {len(posts)}, новых позиций {0 if first else added}"
+              f"{' (первый запуск канала, база сохранена)' if first else ''}", flush=True)
+        total_added += 0 if first else added
     st["init_sold"] = True
-    print(f"проверка: постов прочитано {len(posts)}, новых позиций {0 if first else added}"
-          f"{' (первый запуск, база сохранена)' if first else ''}", flush=True)
-    return 0 if first else added
+    return total_added
+
+
+def fmt_rows(rows):
+    """rows: [(channel, post_id, title, price)] -> текст со списком по каналам."""
+    total, unknown, parts = 0, 0, []
+    for ch in CHANNELS:
+        mine = [r for r in rows if r[0] == ch]
+        if not mine:
+            continue
+        lines, sub = [], 0
+        for _, pid, title, price in mine:
+            link = f"https://t.me/{ch}/{pid}"
+            if price:
+                sub += price
+                lines.append(f"• {title} — {bot.money(price)}\n  {link}")
+            else:
+                unknown += 1
+                lines.append(f"• {title} — цена не найдена\n  {link}")
+        total += sub
+        parts.append(f"@{ch}: {len(mine)} поз., {bot.money(sub)}\n" + "\n".join(lines))
+    return "\n\n".join(parts), total, unknown
+
+
+def _row(v):
+    return (v.get("channel", CHANNELS[0]), v["post_id"], v["title"], v["price"])
 
 
 def build_daily(st, now=None):
     now = now or datetime.now(bot.TZ)
-    rows = [(v["post_id"], v["title"], v["price"]) for v in sorted(
+    rows = [_row(v) for v in sorted(
         (v for v in st["sold"].values() if not v["reported"]), key=lambda v: v["detected"] or "")]
     for v in st["sold"].values():
         v["reported"] = True
     day = now.strftime("%d.%m.%Y")
+    names = ", ".join("@" + c for c in CHANNELS)
     if not rows:
-        return f"Статистика @{bot.CHANNEL} за {day}\nНовых проданных позиций (❌) не появилось."
-    lines, total, unknown = bot.fmt_items(rows)
-    head = (f"Статистика @{bot.CHANNEL} за {day}\nПродано позиций: {len(rows)}, "
-            f"сумма по ценам из постов: {bot.money(total)}")
+        return f"Статистика {names} за {day}\nНовых проданных позиций не появилось."
+    body, total, unknown = fmt_rows(rows)
+    head = f"Статистика {names} за {day}\nПродано позиций: {len(rows)}, сумма по ценам из постов: {bot.money(total)}"
     if unknown:
         head += f" (у {unknown} цену не удалось определить)"
-    return head + "\n\nНовые проданные:\n" + "\n".join(lines)
+    return head + "\n\nНовые проданные:\n" + body
 
 
 def build_today(st, now=None):
     now = now or datetime.now(bot.TZ)
     start = now.replace(hour=0, minute=0, second=0, microsecond=0).astimezone(timezone.utc)
-    rows = [(v["post_id"], v["title"], v["price"]) for v in sorted(
+    rows = [_row(v) for v in sorted(
         (v for v in st["sold"].values() if v["detected"] and datetime.fromisoformat(v["detected"]) >= start),
         key=lambda v: v["detected"])]
     if not rows:
         return "Сегодня новых проданных позиций бот пока не заметил."
-    lines, total, _ = bot.fmt_items(rows)
-    return f"Сегодня замечено проданных: {len(rows)}, сумма: {bot.money(total)}\n\n" + "\n".join(lines)
+    body, total, _ = fmt_rows(rows)
+    return f"Сегодня замечено проданных: {len(rows)}, сумма: {bot.money(total)}\n\n" + body
+
+
+def build_month_all():
+    out = []
+    for ch in CHANNELS:
+        bot.CHANNEL = ch
+        try:
+            out.append(f"=== @{ch} ===\n" + bot.build_month())
+        except Exception as e:
+            out.append(f"=== @{ch} ===\nне удалось прочитать: {e}")
+    return "\n\n".join(out)
 
 
 def maybe_report(st, now=None):
@@ -137,7 +204,7 @@ def handle_commands(st):
         if cmd == "/today":
             bot.send(chat, build_today(st))
         elif cmd == "/month":
-            bot.send(chat, bot.build_month())
+            bot.send(chat, build_month_all())
         elif cmd == "/check":
             n = check_new(st)
             bot.send(chat, f"Проверка выполнена, новых проданных позиций: {n}")
