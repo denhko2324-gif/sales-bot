@@ -86,11 +86,20 @@ def maybe_report(st, now=None):
     now = now or datetime.now(bot.TZ)
     today = now.strftime("%Y-%m-%d")
     if now.hour >= bot.REPORT_HOUR and st.get("last_report_day") != today:
+        if not bot.ALLOWED:
+            print("отчёт пропущен: не задан ALLOWED_CHAT_IDS", flush=True)
+            return
         text = build_daily(st, now)
+        ok = False
         for chat in bot.ALLOWED:
-            bot.send(chat, text)
-        st["last_report_day"] = today
-        print("ежедневный отчёт отправлен", flush=True)
+            try:
+                bot.send(chat, text)
+                ok = True
+            except Exception as e:
+                print(f"не удалось отправить отчёт в чат {chat}: {e}", flush=True)
+        if ok:
+            st["last_report_day"] = today
+            print("ежедневный отчёт отправлен", flush=True)
 
 
 def handle_commands(st):
@@ -123,12 +132,17 @@ def main():
         raise SystemExit("Не задан BOT_TOKEN")
     st = load_state()
     try:
-        handle_commands(st)
-    except Exception as e:
-        print("команды:", e, flush=True)
-    check_new(st)
-    maybe_report(st)
-    save_state(st)
+        try:
+            handle_commands(st)
+        except Exception as e:
+            print("команды:", e, flush=True)
+        check_new(st)
+        try:
+            maybe_report(st)
+        except Exception as e:
+            print("отчёт:", e, flush=True)
+    finally:
+        save_state(st)
 
 
 if __name__ == "__main__":
