@@ -3,12 +3,14 @@
 
 За один запуск:
   1. читает новые команды боту (/today, /month, /check, /start, /chatid) и отвечает на них;
-  2. проверяет свежие посты канала, запоминает новые ❌ (проданное);
+  2. смотрит выдачу поиска по ❌ в канале и запоминает новые проданные позиции;
   3. после REPORT_HOUR:00 по Китаю (один раз в сутки) присылает итог дня и список новых проданных;
   4. сохраняет состояние в state.json (его коммитит workflow).
 """
 import json
 import os
+import time
+import urllib.parse
 from datetime import datetime, timedelta, timezone
 
 import bot  # парсер и тексты сообщений из bot.py (нужен DB_PATH=:memory:, см. workflow)
@@ -29,25 +31,38 @@ def save_state(st):
         json.dump(st, f, ensure_ascii=False, indent=1, sort_keys=True)
 
 
+def scan_sold_pages(pages):
+    """Посты с ❌ через поиск по каналу (самые свежие по номеру поста), по pages страниц."""
+    out, before = [], None
+    for _ in range(pages):
+        url = f"https://t.me/s/{bot.CHANNEL}?q={urllib.parse.quote(bot.SOLD)}" + (f"&before={before}" if before else "")
+        got = bot.parse_page(bot.fetch(url))
+        if not got:
+            break
+        out += got
+        before = min(p.id for p in got)
+        time.sleep(1)
+    return out
+
+
 def check_new(st, posts=None):
-    """Добавляет в state новые позиции с ❌. Первый запуск только запоминает базу."""
+    """Ищет новые ❌ среди постов из поиска. Первый запуск только запоминает базу."""
     if posts is None:
-        posts = bot.scan_recent(bot.SCAN_PAGES)
+        posts = scan_sold_pages(bot.SCAN_PAGES)
     now = datetime.now(timezone.utc).isoformat()
-    first = not st["init"]
+    first = not st.get("init_sold")
     added = 0
     for p in posts:
-        for i, (title, price) in enumerate(bot.sold_items(p)):
-            key = f"{p.id}:{i}"
+        for title, price in bot.sold_items(p):
+            key = f"{p.id}:{title}"
             if key in st["sold"]:
                 continue
             st["sold"][key] = {"post_id": p.id, "title": title, "price": price,
                                "posted": p.posted.isoformat() if p.posted else None,
                                "detected": None if first else now, "reported": first}
             added += 1
-    st["init"] = True
-    print(f"проверка: постов прочитано {len(posts)}, с ❌ среди них "
-          f"{sum(1 for p in posts if bot.SOLD in p.text)}, новых позиций {0 if first else added}"
+    st["init_sold"] = True
+    print(f"проверка: постов с ❌ прочитано {len(posts)}, новых позиций {0 if first else added}"
           f"{' (первый запуск, база сохранена)' if first else ''}", flush=True)
     return 0 if first else added
 
