@@ -23,7 +23,7 @@ from html.parser import HTMLParser
 
 TOKEN = os.environ.get("BOT_TOKEN", "")
 CHANNEL = os.environ.get("CHANNEL", "rusclothing")
-ALLOWED = {int(x) for x in os.environ.get("ALLOWED_CHAT_IDS", "").replace(" ", "").split(",") if x}
+ALLOWED = {int(x) for x in os.environ.get("ALLOWED_CHAT_IDS", "").replace(" ", "").split(",") if x.lstrip("-").isdigit() and int(x) != 0}
 REPORT_HOUR = int(os.environ.get("REPORT_HOUR", "21"))
 CHECK_MINUTES = int(os.environ.get("CHECK_MINUTES", "30"))
 SCAN_PAGES = int(os.environ.get("SCAN_PAGES", "6"))  # страниц свежих постов на каждую проверку
