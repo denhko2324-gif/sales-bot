@@ -3158,6 +3158,15 @@
    "reported": true,
    "title": "Кроссовки Billie Eilish x Nike Air Force 1 '07 SP \"Sequoia\""
   },
+  "amahasla:6897:Пуховик Calvin Klein cK Glossy": {
+   "channel": "amahasla",
+   "detected": "2026-11-27T14:36:27.714503+00:00",
+   "post_id": 6897,
+   "posted": "2026-10-26T08:59:01+00:00",
+   "price": 12990,
+   "reported": false,
+   "title": "Пуховик Calvin Klein cK Glossy"
+  },
   "amahasla:6900:Пуховик Armani Exchange": {
    "channel": "amahasla",
    "detected": null,
@@ -3553,6 +3562,15 @@
    "price": 13490,
    "reported": true,
    "title": "Пуховик Armani Exchange Icon Period"
+  },
+  "amahasla:6980:Пуховик Raw G-Star": {
+   "channel": "amahasla",
+   "detected": "2026-11-27T14:36:27.714503+00:00",
+   "post_id": 6980,
+   "posted": "2026-11-06T12:55:07+00:00",
+   "price": 10990,
+   "reported": false,
+   "title": "Пуховик Raw G-Star"
   },
   "amahasla:6983:Пуховик Emporio Armani Glossy": {
    "channel": "amahasla",
