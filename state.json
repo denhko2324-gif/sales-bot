@@ -5,7 +5,7 @@
   "amahasla"
  ],
  "init_sold": true,
- "last_report_day": "2026-11-26",
+ "last_report_day": "2026-11-27",
  "offset": 238070934,
  "sold": {
   "20687:Хайтопы Giuseppe Zanotti": {
@@ -473,7 +473,7 @@
    "post_id": 6336,
    "posted": "2026-08-05T15:45:09+00:00",
    "price": 8490,
-   "reported": false,
+   "reported": true,
    "title": "Кеды Converse x The Soloist All Star Disrupt CX High"
   },
   "amahasla:6337:Кеды Converse Chuck 70 Hi x Undercover \"The New Warriors\" Camo": {
@@ -1832,7 +1832,7 @@
    "post_id": 6610,
    "posted": "2026-09-22T14:36:01+00:00",
    "price": 12490,
-   "reported": false,
+   "reported": true,
    "title": "Сумка Dolce & Gabbana D&G Nylon"
   },
   "amahasla:6611:Худи CP Company": {
@@ -3491,6 +3491,15 @@
    "reported": true,
    "title": "Пуховик Tommy Jeans"
   },
+  "amahasla:6965:Dolce & Gabbana Runway «Hybrid» Sleeve Knit Jacket AW08": {
+   "channel": "amahasla",
+   "detected": "2026-11-27T13:39:36.473160+00:00",
+   "post_id": 6965,
+   "posted": "2026-11-04T13:14:01+00:00",
+   "price": 70990,
+   "reported": true,
+   "title": "Dolce & Gabbana Runway «Hybrid» Sleeve Knit Jacket AW08"
+  },
   "amahasla:6967:Зип-Худи Stone Island": {
    "channel": "amahasla",
    "detected": null,
@@ -3839,7 +3848,7 @@
    "post_id": 7087,
    "posted": "2026-11-19T09:14:01+00:00",
    "price": 14990,
-   "reported": false,
+   "reported": true,
    "title": "Пуховик Diesel"
   },
   "amahasla:7090:Пуховик Armani Exchange Icon Period": {
@@ -3992,7 +4001,7 @@
    "post_id": 7125,
    "posted": "2026-11-23T17:20:10+00:00",
    "price": 5990,
-   "reported": false,
+   "reported": true,
    "title": "Поло Dolce & Gabbana D&G"
   },
   "amahasla:7146:Зип-Худи Dolce & Gabbana D&G": {
@@ -4019,7 +4028,7 @@
    "post_id": 7160,
    "posted": "2026-11-26T17:46:01+00:00",
    "price": 13490,
-   "reported": false,
+   "reported": true,
    "title": "Свитшот Stone Island"
   },
   "rusclothing:20687:Хайтопы Giuseppe Zanotti": {
@@ -4352,7 +4361,7 @@
    "post_id": 21604,
    "posted": "2026-11-25T12:20:20+00:00",
    "price": 15000,
-   "reported": false,
+   "reported": true,
    "title": "Футболка с трахающимися жирафами Dolce Gabbana"
   },
   "rusclothing:21617:Хайтопы Giuseppe Zanotti Black": {
@@ -4361,7 +4370,7 @@
    "post_id": 21617,
    "posted": "2026-11-26T08:09:31+00:00",
    "price": 14500,
-   "reported": false,
+   "reported": true,
    "title": "Хайтопы Giuseppe Zanotti Black"
   }
  }
