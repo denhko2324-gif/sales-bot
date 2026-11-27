@@ -1826,6 +1826,15 @@
    "reported": true,
    "title": "Серьги Dolce & Gabbana D&G"
   },
+  "amahasla:6610:Сумка Dolce & Gabbana D&G Nylon": {
+   "channel": "amahasla",
+   "detected": "2026-11-27T09:26:20.410555+00:00",
+   "post_id": 6610,
+   "posted": "2026-09-22T14:36:01+00:00",
+   "price": 12490,
+   "reported": false,
+   "title": "Сумка Dolce & Gabbana D&G Nylon"
+  },
   "amahasla:6611:Худи CP Company": {
    "channel": "amahasla",
    "detected": null,
@@ -3823,6 +3832,15 @@
    "price": 29990,
    "reported": true,
    "title": "Пуховик Dolce & Gabbana D&G Alaska"
+  },
+  "amahasla:7087:Пуховик Diesel": {
+   "channel": "amahasla",
+   "detected": "2026-11-27T09:26:20.410555+00:00",
+   "post_id": 7087,
+   "posted": "2026-11-19T09:14:01+00:00",
+   "price": 14990,
+   "reported": false,
+   "title": "Пуховик Diesel"
   },
   "amahasla:7090:Пуховик Armani Exchange Icon Period": {
    "channel": "amahasla",
