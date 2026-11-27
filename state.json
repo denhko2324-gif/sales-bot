@@ -467,6 +467,15 @@
    "reported": true,
    "title": "Кроссовки Adidas Y-3 Yohji Pro Low"
   },
+  "amahasla:6336:Кеды Converse x The Soloist All Star Disrupt CX High": {
+   "channel": "amahasla",
+   "detected": "2026-11-27T08:10:18.158156+00:00",
+   "post_id": 6336,
+   "posted": "2026-08-05T15:45:09+00:00",
+   "price": 8490,
+   "reported": false,
+   "title": "Кеды Converse x The Soloist All Star Disrupt CX High"
+  },
   "amahasla:6337:Кеды Converse Chuck 70 Hi x Undercover \"The New Warriors\" Camo": {
    "channel": "amahasla",
    "detected": null,
@@ -3959,6 +3968,15 @@
    "reported": true,
    "title": "Пуховик Guess Logo"
   },
+  "amahasla:7125:Поло Dolce & Gabbana D&G": {
+   "channel": "amahasla",
+   "detected": "2026-11-27T08:10:18.158156+00:00",
+   "post_id": 7125,
+   "posted": "2026-11-23T17:20:10+00:00",
+   "price": 5990,
+   "reported": false,
+   "title": "Поло Dolce & Gabbana D&G"
+  },
   "amahasla:7146:Зип-Худи Dolce & Gabbana D&G": {
    "channel": "amahasla",
    "detected": null,
@@ -3976,6 +3994,15 @@
    "price": 9990,
    "reported": true,
    "title": "Зип-Худи C.P. Company"
+  },
+  "amahasla:7160:Свитшот Stone Island": {
+   "channel": "amahasla",
+   "detected": "2026-11-27T08:10:18.158156+00:00",
+   "post_id": 7160,
+   "posted": "2026-11-26T17:46:01+00:00",
+   "price": 13490,
+   "reported": false,
+   "title": "Свитшот Stone Island"
   },
   "rusclothing:20687:Хайтопы Giuseppe Zanotti": {
    "channel": "rusclothing",
