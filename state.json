@@ -6593,6 +6593,15 @@
    "reported": true,
    "title": "Сумка Ne-Net"
   },
+  "rusclothing:21548:Рубашка Tornado Mart Flowers": {
+   "channel": "rusclothing",
+   "detected": "2026-11-28T11:17:39.702752+00:00",
+   "post_id": 21548,
+   "posted": "2026-11-23T15:05:42+00:00",
+   "price": 14000,
+   "reported": false,
+   "title": "Рубашка Tornado Mart Flowers"
+  },
   "rusclothing:21604:Футболка с трахающимися жирафами Dolce Gabbana": {
    "channel": "rusclothing",
    "detected": "2026-11-26T15:38:46.355572+00:00",
